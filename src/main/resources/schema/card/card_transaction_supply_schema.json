@@ -1,0 +1,493 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "data": [
+        {
+          "transactionId": "TXpRMU9UQTROMWhZV2xSU1FUazJSMDl",
+          "identificationNumber": "4453",
+          "lineName": "CREDITO_A_VISTA",
+          "transactionName": "PGTO",
+          "billId": "MTU0OTU1NjI2NTk4OTRmc2ZhZDRmc2Q1NmZkM",
+          "creditDebitType": "DEBITO",
+          "transactionType": "CASHBACK",
+          "transactionalAdditionalInfo": "string",
+          "paymentType": "A_VISTA",
+          "feeType": "ANUIDADE",
+          "feeTypeAdditionalInfo": "string",
+          "otherCreditsType": "CREDITO_ROTATIVO",
+          "otherCreditsAdditionalInfo": "string",
+          "chargeIdentificator": "PARCELA_1",
+          "chargeNumber": 3,
+          "brazilianAmount": 100000.04,
+          "amount": 100000.04,
+          "currency": "BRL",
+          "transactionDate": "2021-05-21",
+          "billPostDate": "2021-05-21",
+          "payeeMCC": 5137
+        }
+      ],
+      "links": {
+        "self": "",
+        "first": "",
+        "prev": "",
+        "next": "",
+        "last": ""
+      },
+      "meta": {
+        "totalRecords": 1,
+        "totalPages": 1,
+        "requestDateTime": "2021-05-21T08:30:00Z"
+      }
+    }
+  ],
+  "required": [
+    "data",
+    "links",
+    "meta"
+  ],
+  "properties": {
+    "data": {
+      "$id": "#/properties/data",
+      "type": "array",
+      "title": "The data schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "transactionId": "TXpRMU9UQTROMWhZV2xSU1FUazJSMDl",
+            "identificationNumber": "4453",
+            "lineName": "CREDITO_A_VISTA",
+            "transactionName": "PGTO",
+            "billId": "MTU0OTU1NjI2NTk4OTRmc2ZhZDRmc2Q1NmZkM",
+            "creditDebitType": "DEBITO",
+            "transactionType": "CASHBACK",
+            "transactionalAdditionalInfo": "string",
+            "paymentType": "A_VISTA",
+            "feeType": "ANUIDADE",
+            "feeTypeAdditionalInfo": "string",
+            "otherCreditsType": "CREDITO_ROTATIVO",
+            "otherCreditsAdditionalInfo": "string",
+            "chargeIdentificator": "PARCELA_1",
+            "chargeNumber": 3,
+            "brazilianAmount": 100000.04,
+            "amount": 100000.04,
+            "currency": "BRL",
+            "transactionDate": "2021-05-21",
+            "billPostDate": "2021-05-21",
+            "payeeMCC": 5137
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/data/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/data/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "transactionId": "TXpRMU9UQTROMWhZV2xSU1FUazJSMDl",
+                "identificationNumber": "4453",
+                "lineName": "CREDITO_A_VISTA",
+                "transactionName": "PGTO",
+                "billId": "MTU0OTU1NjI2NTk4OTRmc2ZhZDRmc2Q1NmZkM",
+                "creditDebitType": "DEBITO",
+                "transactionType": "CASHBACK",
+                "transactionalAdditionalInfo": "string",
+                "paymentType": "A_VISTA",
+                "feeType": "ANUIDADE",
+                "feeTypeAdditionalInfo": "string",
+                "otherCreditsType": "CREDITO_ROTATIVO",
+                "otherCreditsAdditionalInfo": "string",
+                "chargeIdentificator": "PARCELA_1",
+                "chargeNumber": 3,
+                "brazilianAmount": 100000.04,
+                "amount": 100000.04,
+                "currency": "BRL",
+                "transactionDate": "2021-05-21",
+                "billPostDate": "2021-05-21",
+                "payeeMCC": 5137
+              }
+            ],
+            "required": [
+              "transactionId",
+              "identificationNumber",
+              "lineName",
+              "transactionName",
+              "billId",
+              "creditDebitType",
+              "transactionType",
+              "transactionalAdditionalInfo",
+              "paymentType",
+              "feeType",
+              "feeTypeAdditionalInfo",
+              "otherCreditsType",
+              "otherCreditsAdditionalInfo",
+              "chargeIdentificator",
+              "chargeNumber",
+              "brazilianAmount",
+              "amount",
+              "currency",
+              "transactionDate",
+              "billPostDate",
+              "payeeMCC"
+            ],
+            "properties": {
+              "transactionId": {
+                "$id": "#/properties/data/items/anyOf/0/properties/transactionId",
+                "type": "string",
+                "title": "The transactionId schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "TXpRMU9UQTROMWhZV2xSU1FUazJSMDl"
+                ]
+              },
+              "identificationNumber": {
+                "$id": "#/properties/data/items/anyOf/0/properties/identificationNumber",
+                "type": "string",
+                "title": "The identificationNumber schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "4453"
+                ]
+              },
+              "lineName": {
+                "$id": "#/properties/data/items/anyOf/0/properties/lineName",
+                "type": "string",
+                "title": "The lineName schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "CREDITO_A_VISTA"
+                ]
+              },
+              "transactionName": {
+                "$id": "#/properties/data/items/anyOf/0/properties/transactionName",
+                "type": "string",
+                "title": "The transactionName schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "PGTO"
+                ]
+              },
+              "billId": {
+                "$id": "#/properties/data/items/anyOf/0/properties/billId",
+                "type": "string",
+                "title": "The billId schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "MTU0OTU1NjI2NTk4OTRmc2ZhZDRmc2Q1NmZkM"
+                ]
+              },
+              "creditDebitType": {
+                "$id": "#/properties/data/items/anyOf/0/properties/creditDebitType",
+                "type": "string",
+                "title": "The creditDebitType schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "DEBITO"
+                ]
+              },
+              "transactionType": {
+                "$id": "#/properties/data/items/anyOf/0/properties/transactionType",
+                "type": "string",
+                "title": "The transactionType schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "CASHBACK"
+                ]
+              },
+              "transactionalAdditionalInfo": {
+                "$id": "#/properties/data/items/anyOf/0/properties/transactionalAdditionalInfo",
+                "type": "string",
+                "title": "The transactionalAdditionalInfo schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "string"
+                ]
+              },
+              "paymentType": {
+                "$id": "#/properties/data/items/anyOf/0/properties/paymentType",
+                "type": "string",
+                "title": "The paymentType schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "A_VISTA"
+                ]
+              },
+              "feeType": {
+                "$id": "#/properties/data/items/anyOf/0/properties/feeType",
+                "type": "string",
+                "title": "The feeType schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "ANUIDADE"
+                ]
+              },
+              "feeTypeAdditionalInfo": {
+                "$id": "#/properties/data/items/anyOf/0/properties/feeTypeAdditionalInfo",
+                "type": "string",
+                "title": "The feeTypeAdditionalInfo schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "string"
+                ]
+              },
+              "otherCreditsType": {
+                "$id": "#/properties/data/items/anyOf/0/properties/otherCreditsType",
+                "type": "string",
+                "title": "The otherCreditsType schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "CREDITO_ROTATIVO"
+                ]
+              },
+              "otherCreditsAdditionalInfo": {
+                "$id": "#/properties/data/items/anyOf/0/properties/otherCreditsAdditionalInfo",
+                "type": "string",
+                "title": "The otherCreditsAdditionalInfo schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "string"
+                ]
+              },
+              "chargeIdentificator": {
+                "$id": "#/properties/data/items/anyOf/0/properties/chargeIdentificator",
+                "type": "string",
+                "title": "The chargeIdentificator schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "PARCELA_1"
+                ]
+              },
+              "chargeNumber": {
+                "$id": "#/properties/data/items/anyOf/0/properties/chargeNumber",
+                "type": "integer",
+                "title": "The chargeNumber schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  3
+                ]
+              },
+              "brazilianAmount": {
+                "$id": "#/properties/data/items/anyOf/0/properties/brazilianAmount",
+                "type": "number",
+                "title": "The brazilianAmount schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0.0,
+                "examples": [
+                  100000.04
+                ]
+              },
+              "amount": {
+                "$id": "#/properties/data/items/anyOf/0/properties/amount",
+                "type": "number",
+                "title": "The amount schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0.0,
+                "examples": [
+                  100000.04
+                ]
+              },
+              "currency": {
+                "$id": "#/properties/data/items/anyOf/0/properties/currency",
+                "type": "string",
+                "title": "The currency schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "BRL"
+                ]
+              },
+              "transactionDate": {
+                "$id": "#/properties/data/items/anyOf/0/properties/transactionDate",
+                "type": "string",
+                "title": "The transactionDate schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2021-05-21"
+                ]
+              },
+              "billPostDate": {
+                "$id": "#/properties/data/items/anyOf/0/properties/billPostDate",
+                "type": "string",
+                "title": "The billPostDate schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2021-05-21"
+                ]
+              },
+              "payeeMCC": {
+                "$id": "#/properties/data/items/anyOf/0/properties/payeeMCC",
+                "type": "integer",
+                "title": "The payeeMCC schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  5137
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "links": {
+      "$id": "#/properties/links",
+      "type": "object",
+      "title": "The links schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "self": "",
+          "first": "",
+          "prev": "",
+          "next": "",
+          "last": ""
+        }
+      ],
+      "required": [
+        "self",
+        "first",
+        "prev",
+        "next",
+        "last"
+      ],
+      "properties": {
+        "self": {
+          "$id": "#/properties/links/properties/self",
+          "type": "string",
+          "title": "The self schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "first": {
+          "$id": "#/properties/links/properties/first",
+          "type": "string",
+          "title": "The first schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "prev": {
+          "$id": "#/properties/links/properties/prev",
+          "type": "string",
+          "title": "The prev schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "next": {
+          "$id": "#/properties/links/properties/next",
+          "type": "string",
+          "title": "The next schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "last": {
+          "$id": "#/properties/links/properties/last",
+          "type": "string",
+          "title": "The last schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "meta": {
+      "$id": "#/properties/meta",
+      "type": "object",
+      "title": "The meta schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "totalRecords": 1,
+          "totalPages": 1,
+          "requestDateTime": "2021-05-21T08:30:00Z"
+        }
+      ],
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ],
+      "properties": {
+        "totalRecords": {
+          "$id": "#/properties/meta/properties/totalRecords",
+          "type": "integer",
+          "title": "The totalRecords schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        },
+        "totalPages": {
+          "$id": "#/properties/meta/properties/totalPages",
+          "type": "integer",
+          "title": "The totalPages schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        },
+        "requestDateTime": {
+          "$id": "#/properties/meta/properties/requestDateTime",
+          "type": "string",
+          "title": "The requestDateTime schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "2021-05-21T08:30:00Z"
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

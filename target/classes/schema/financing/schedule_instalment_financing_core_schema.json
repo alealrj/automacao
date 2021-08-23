@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "contractRemainingDays": {
+          "type": "integer"
+        },
+        "dueInstalments": {
+          "type": "integer"
+        },
+        "pastDueInstalments": {
+          "type": "integer"
+        },
+        "balloonPayments": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "dueDate": {
+                  "type": "string"
+                },
+                "currency": {
+                  "type": "string"
+                },
+                "amount": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "dueDate",
+                "currency",
+                "amount"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "contractRemainingDays",
+        "dueInstalments",
+        "pastDueInstalments",
+        "balloonPayments"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "meta"
+  ]
+}

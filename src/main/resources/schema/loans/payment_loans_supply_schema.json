@@ -1,0 +1,167 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "paidInstalments": {
+          "type": "integer"
+        },
+        "contractOutstandingBalance": {
+          "type": "number"
+        },
+        "releases": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "paymentId": {
+                  "type": "string"
+                },
+                "instalmentId": {
+                  "type": "string"
+                },
+                "paidDate": {
+                  "type": "string"
+                },
+                "currency": {
+                  "type": "string"
+                },
+                "paidAmount": {
+                  "type": "number"
+                },
+                "overParcel": {
+                  "type": "object",
+                  "properties": {
+                    "fees": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "feeName": {
+                              "type": "string"
+                            },
+                            "feeCode": {
+                              "type": "string"
+                            },
+                            "feeAmount": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "feeName",
+                            "feeCode",
+                            "feeAmount"
+                          ]
+                        }
+                      ]
+                    },
+                    "charges": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "chargeType": {
+                              "type": "string"
+                            },
+                            "chargeAdditionalInfo": {
+                              "type": "string"
+                            },
+                            "chargeAmount": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "chargeType",
+                            "chargeAdditionalInfo",
+                            "chargeAmount"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "fees",
+                    "charges"
+                  ]
+                },
+                "overParcelPayment": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "paymentId",
+                "instalmentId",
+                "paidDate",
+                "currency",
+                "paidAmount",
+                "overParcel",
+                "overParcelPayment"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "paidInstalments",
+        "contractOutstandingBalance",
+        "releases"
+      ]
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "self": {
+          "type": "string"
+        },
+        "first": {
+          "type": "string"
+        },
+        "prev": {
+          "type": "string"
+        },
+        "next": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "self",
+        "first",
+        "prev",
+        "next",
+        "last"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "links",
+    "meta"
+  ]
+}

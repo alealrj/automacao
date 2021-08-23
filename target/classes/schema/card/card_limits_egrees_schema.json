@@ -1,0 +1,665 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "origem": "b2k",
+      "codigoRetorno": "F0000",
+      "mensagem": "ACESSO REALIZADO COM SUCESSO",
+      "usoLimiteUnificadoGlobal": "",
+      "tipoLimite": "C",
+      "tipoLimiteConsolidado": "I",
+      "sinalLimiteTotal": "+",
+      "valorLimiteTotal": 0,
+      "sinalLimiteTotalDisponivel": "+",
+      "valorLimiteTotalDisponivel": 0,
+      "sinalLimiteTotalUso": "+",
+      "valorLimiteTotalUso": 42468,
+      "sinalCompraNacional": "+",
+      "valorCompraNacional": 0,
+      "sinalCompraNacionalDisponivel": "+",
+      "valorCompraNacionalDisponivel": 0,
+      "sinalCompraNacionalUso": "+",
+      "valorCompraNacionalUso": 0,
+      "sinalCompraExterior": "+",
+      "valorCompraExterior": 0,
+      "sinalCompraExteriorDisponivel": "+",
+      "valorCompraExteriorDisponivel": 0,
+      "sinalCompraExteriorUso": "+",
+      "valorCompraExteriorUso": 0,
+      "sinalSaqueNacional": "+",
+      "valorSaqueNacional": 0,
+      "sinalSaqueNacionalDisponivel": "+",
+      "valorSaqueNacionalDisponivel": 0,
+      "sinalSaqueNacionalUso": "+",
+      "valorSaqueNacionalUso": 0,
+      "sinalSaqueExterior": "+",
+      "valorSaqueExterior": 0,
+      "sinalSaqueExteriorDisponivel": "+",
+      "valorSaqueExteriorDisponivel": 0,
+      "sinalSaqueExteriorUso": "+",
+      "valorSaqueExteriorUso": 0,
+      "sinalCompraVista": "+",
+      "valorCompraVista": 0,
+      "sinalCompraVistaDisponivel": "+",
+      "valorCompraVistaDisponivel": 0,
+      "sinalCompraVistaUso": "+",
+      "valorCompraVistaUso": 0,
+      "sinalCompraParcelado": "+",
+      "valorCompraParcelado": 0,
+      "sinalCompraParceladoDisponivel": "+",
+      "valorCompraParceladoDisponivel": 0,
+      "sinalCompraParceladoUso": "+",
+      "valorCompraParceladoUso": 0,
+      "sinalSaqueParcelado": "+",
+      "valorSaqueParcelado": 0,
+      "sinalSaqueParceladoDisponivel": "+",
+      "valorSaqueParceladoDisponivel": 0,
+      "sinalSaqueParceladoUso": "+",
+      "valorSaqueParceladoUso": 0
+    }
+  ],
+  "required": [
+    "origem",
+    "codigoRetorno",
+    "mensagem",
+    "usoLimiteUnificadoGlobal",
+    "tipoLimite",
+    "tipoLimiteConsolidado",
+    "sinalLimiteTotal",
+    "valorLimiteTotal",
+    "sinalLimiteTotalDisponivel",
+    "valorLimiteTotalDisponivel",
+    "sinalLimiteTotalUso",
+    "valorLimiteTotalUso",
+    "sinalCompraNacional",
+    "valorCompraNacional",
+    "sinalCompraNacionalDisponivel",
+    "valorCompraNacionalDisponivel",
+    "sinalCompraNacionalUso",
+    "valorCompraNacionalUso",
+    "sinalCompraExterior",
+    "valorCompraExterior",
+    "sinalCompraExteriorDisponivel",
+    "valorCompraExteriorDisponivel",
+    "sinalCompraExteriorUso",
+    "valorCompraExteriorUso",
+    "sinalSaqueNacional",
+    "valorSaqueNacional",
+    "sinalSaqueNacionalDisponivel",
+    "valorSaqueNacionalDisponivel",
+    "sinalSaqueNacionalUso",
+    "valorSaqueNacionalUso",
+    "sinalSaqueExterior",
+    "valorSaqueExterior",
+    "sinalSaqueExteriorDisponivel",
+    "valorSaqueExteriorDisponivel",
+    "sinalSaqueExteriorUso",
+    "valorSaqueExteriorUso",
+    "sinalCompraVista",
+    "valorCompraVista",
+    "sinalCompraVistaDisponivel",
+    "valorCompraVistaDisponivel",
+    "sinalCompraVistaUso",
+    "valorCompraVistaUso",
+    "sinalCompraParcelado",
+    "valorCompraParcelado",
+    "sinalCompraParceladoDisponivel",
+    "valorCompraParceladoDisponivel",
+    "sinalCompraParceladoUso",
+    "valorCompraParceladoUso",
+    "sinalSaqueParcelado",
+    "valorSaqueParcelado",
+    "sinalSaqueParceladoDisponivel",
+    "valorSaqueParceladoDisponivel",
+    "sinalSaqueParceladoUso",
+    "valorSaqueParceladoUso"
+  ],
+  "properties": {
+    "origem": {
+      "$id": "#/properties/origem",
+      "type": "string",
+      "title": "The origem schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "b2k"
+      ]
+    },
+    "codigoRetorno": {
+      "$id": "#/properties/codigoRetorno",
+      "type": "string",
+      "title": "The codigoRetorno schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "F0000"
+      ]
+    },
+    "mensagem": {
+      "$id": "#/properties/mensagem",
+      "type": "string",
+      "title": "The mensagem schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "ACESSO REALIZADO COM SUCESSO"
+      ]
+    },
+    "usoLimiteUnificadoGlobal": {
+      "$id": "#/properties/usoLimiteUnificadoGlobal",
+      "type": "string",
+      "title": "The usoLimiteUnificadoGlobal schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "tipoLimite": {
+      "$id": "#/properties/tipoLimite",
+      "type": "string",
+      "title": "The tipoLimite schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "C"
+      ]
+    },
+    "tipoLimiteConsolidado": {
+      "$id": "#/properties/tipoLimiteConsolidado",
+      "type": "string",
+      "title": "The tipoLimiteConsolidado schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "I"
+      ]
+    },
+    "sinalLimiteTotal": {
+      "$id": "#/properties/sinalLimiteTotal",
+      "type": "string",
+      "title": "The sinalLimiteTotal schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorLimiteTotal": {
+      "$id": "#/properties/valorLimiteTotal",
+      "type": "integer",
+      "title": "The valorLimiteTotal schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalLimiteTotalDisponivel": {
+      "$id": "#/properties/sinalLimiteTotalDisponivel",
+      "type": "string",
+      "title": "The sinalLimiteTotalDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorLimiteTotalDisponivel": {
+      "$id": "#/properties/valorLimiteTotalDisponivel",
+      "type": "integer",
+      "title": "The valorLimiteTotalDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalLimiteTotalUso": {
+      "$id": "#/properties/sinalLimiteTotalUso",
+      "type": "string",
+      "title": "The sinalLimiteTotalUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorLimiteTotalUso": {
+      "$id": "#/properties/valorLimiteTotalUso",
+      "type": "integer",
+      "title": "The valorLimiteTotalUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        42468
+      ]
+    },
+    "sinalCompraNacional": {
+      "$id": "#/properties/sinalCompraNacional",
+      "type": "string",
+      "title": "The sinalCompraNacional schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraNacional": {
+      "$id": "#/properties/valorCompraNacional",
+      "type": "integer",
+      "title": "The valorCompraNacional schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraNacionalDisponivel": {
+      "$id": "#/properties/sinalCompraNacionalDisponivel",
+      "type": "string",
+      "title": "The sinalCompraNacionalDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraNacionalDisponivel": {
+      "$id": "#/properties/valorCompraNacionalDisponivel",
+      "type": "integer",
+      "title": "The valorCompraNacionalDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraNacionalUso": {
+      "$id": "#/properties/sinalCompraNacionalUso",
+      "type": "string",
+      "title": "The sinalCompraNacionalUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraNacionalUso": {
+      "$id": "#/properties/valorCompraNacionalUso",
+      "type": "integer",
+      "title": "The valorCompraNacionalUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraExterior": {
+      "$id": "#/properties/sinalCompraExterior",
+      "type": "string",
+      "title": "The sinalCompraExterior schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraExterior": {
+      "$id": "#/properties/valorCompraExterior",
+      "type": "integer",
+      "title": "The valorCompraExterior schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraExteriorDisponivel": {
+      "$id": "#/properties/sinalCompraExteriorDisponivel",
+      "type": "string",
+      "title": "The sinalCompraExteriorDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraExteriorDisponivel": {
+      "$id": "#/properties/valorCompraExteriorDisponivel",
+      "type": "integer",
+      "title": "The valorCompraExteriorDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraExteriorUso": {
+      "$id": "#/properties/sinalCompraExteriorUso",
+      "type": "string",
+      "title": "The sinalCompraExteriorUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraExteriorUso": {
+      "$id": "#/properties/valorCompraExteriorUso",
+      "type": "integer",
+      "title": "The valorCompraExteriorUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalSaqueNacional": {
+      "$id": "#/properties/sinalSaqueNacional",
+      "type": "string",
+      "title": "The sinalSaqueNacional schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorSaqueNacional": {
+      "$id": "#/properties/valorSaqueNacional",
+      "type": "integer",
+      "title": "The valorSaqueNacional schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalSaqueNacionalDisponivel": {
+      "$id": "#/properties/sinalSaqueNacionalDisponivel",
+      "type": "string",
+      "title": "The sinalSaqueNacionalDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorSaqueNacionalDisponivel": {
+      "$id": "#/properties/valorSaqueNacionalDisponivel",
+      "type": "integer",
+      "title": "The valorSaqueNacionalDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalSaqueNacionalUso": {
+      "$id": "#/properties/sinalSaqueNacionalUso",
+      "type": "string",
+      "title": "The sinalSaqueNacionalUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorSaqueNacionalUso": {
+      "$id": "#/properties/valorSaqueNacionalUso",
+      "type": "integer",
+      "title": "The valorSaqueNacionalUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalSaqueExterior": {
+      "$id": "#/properties/sinalSaqueExterior",
+      "type": "string",
+      "title": "The sinalSaqueExterior schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorSaqueExterior": {
+      "$id": "#/properties/valorSaqueExterior",
+      "type": "integer",
+      "title": "The valorSaqueExterior schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalSaqueExteriorDisponivel": {
+      "$id": "#/properties/sinalSaqueExteriorDisponivel",
+      "type": "string",
+      "title": "The sinalSaqueExteriorDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorSaqueExteriorDisponivel": {
+      "$id": "#/properties/valorSaqueExteriorDisponivel",
+      "type": "integer",
+      "title": "The valorSaqueExteriorDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalSaqueExteriorUso": {
+      "$id": "#/properties/sinalSaqueExteriorUso",
+      "type": "string",
+      "title": "The sinalSaqueExteriorUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorSaqueExteriorUso": {
+      "$id": "#/properties/valorSaqueExteriorUso",
+      "type": "integer",
+      "title": "The valorSaqueExteriorUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraVista": {
+      "$id": "#/properties/sinalCompraVista",
+      "type": "string",
+      "title": "The sinalCompraVista schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraVista": {
+      "$id": "#/properties/valorCompraVista",
+      "type": "integer",
+      "title": "The valorCompraVista schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraVistaDisponivel": {
+      "$id": "#/properties/sinalCompraVistaDisponivel",
+      "type": "string",
+      "title": "The sinalCompraVistaDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraVistaDisponivel": {
+      "$id": "#/properties/valorCompraVistaDisponivel",
+      "type": "integer",
+      "title": "The valorCompraVistaDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraVistaUso": {
+      "$id": "#/properties/sinalCompraVistaUso",
+      "type": "string",
+      "title": "The sinalCompraVistaUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraVistaUso": {
+      "$id": "#/properties/valorCompraVistaUso",
+      "type": "integer",
+      "title": "The valorCompraVistaUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraParcelado": {
+      "$id": "#/properties/sinalCompraParcelado",
+      "type": "string",
+      "title": "The sinalCompraParcelado schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraParcelado": {
+      "$id": "#/properties/valorCompraParcelado",
+      "type": "integer",
+      "title": "The valorCompraParcelado schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraParceladoDisponivel": {
+      "$id": "#/properties/sinalCompraParceladoDisponivel",
+      "type": "string",
+      "title": "The sinalCompraParceladoDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraParceladoDisponivel": {
+      "$id": "#/properties/valorCompraParceladoDisponivel",
+      "type": "integer",
+      "title": "The valorCompraParceladoDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalCompraParceladoUso": {
+      "$id": "#/properties/sinalCompraParceladoUso",
+      "type": "string",
+      "title": "The sinalCompraParceladoUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorCompraParceladoUso": {
+      "$id": "#/properties/valorCompraParceladoUso",
+      "type": "integer",
+      "title": "The valorCompraParceladoUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalSaqueParcelado": {
+      "$id": "#/properties/sinalSaqueParcelado",
+      "type": "string",
+      "title": "The sinalSaqueParcelado schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorSaqueParcelado": {
+      "$id": "#/properties/valorSaqueParcelado",
+      "type": "integer",
+      "title": "The valorSaqueParcelado schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalSaqueParceladoDisponivel": {
+      "$id": "#/properties/sinalSaqueParceladoDisponivel",
+      "type": "string",
+      "title": "The sinalSaqueParceladoDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorSaqueParceladoDisponivel": {
+      "$id": "#/properties/valorSaqueParceladoDisponivel",
+      "type": "integer",
+      "title": "The valorSaqueParceladoDisponivel schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "sinalSaqueParceladoUso": {
+      "$id": "#/properties/sinalSaqueParceladoUso",
+      "type": "string",
+      "title": "The sinalSaqueParceladoUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+"
+      ]
+    },
+    "valorSaqueParceladoUso": {
+      "$id": "#/properties/valorSaqueParceladoUso",
+      "type": "integer",
+      "title": "The valorSaqueParceladoUso schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    }
+  },
+  "additionalProperties": true
+}

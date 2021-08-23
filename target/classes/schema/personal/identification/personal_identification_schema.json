@@ -1,0 +1,619 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "updateDateTime": {
+              "type": "string",
+              "maxLength": 20
+            },
+            "personalId": {
+              "type": "string",
+              "maxLength": 100
+            },
+            "brandName": {
+              "type": "string",
+              "maxLength": 80
+            },
+            "civilName": {
+              "type": "string",
+              "maxLength": 70
+            },
+            "socialName": {
+              "type": "string",
+              "maxLength": 70
+            },
+            "birthDate": {
+              "type": "string",
+              "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])$",
+              "maxLength": 10
+            },
+            "maritalStatusCode": {
+              "type": "string",
+              "enum": [
+                "SOLTEIRO",
+                "CASADO",
+                "VIUVO",
+                "SEPARADO_JUDICIALMENTE",
+                "DIVORCIADO",
+                "UNIAO_ESTAVEL",
+                "OUTRO"
+              ]
+            },
+            "maritalStatusAdditionalInfo": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "maxLength": 50
+            },
+            "sex": {
+              "type": "string",
+              "enum": [
+                "FEMININO",
+                "MASCULINO",
+                "OUTRO"
+              ]
+            },
+            "companyCnpj": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string",
+                  "pattern": "\\d{14}|^NA$",
+                  "maxLength": 14
+                }
+              ]
+            },
+            "documents": {
+              "type": "object",
+              "properties": {
+                "cpfNumber": {
+                  "type": "string",
+                  "pattern": "^\\d{11}$|^NA$",
+                  "maxLength": 11
+                },
+                "passportNumber": {
+                  "type": "string",
+                  "maxLength": 20
+                },
+                "passportCountry": {
+                  "type": "string",
+                  "pattern": "^(\\w{3}){1}$|^NA$",
+                  "maxLength": 3
+                },
+                "passportExpirationDate": {
+                  "type": "string",
+                  "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])$|^NA$",
+                  "maxLength": 10
+                },
+                "passportIssueDate": {
+                  "type": "string",
+                  "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])$|^NA$",
+                  "maxLength": 10
+                }
+              },
+              "required": [
+                "cpfNumber",
+                "passportNumber",
+                "passportCountry",
+                "passportExpirationDate",
+                "passportIssueDate"
+              ]
+            },
+            "otherDocuments": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "CNH",
+                        "RG",
+                        "NIF",
+                        "RNE",
+                        "OUTROS",
+                        "SEM_OUTROS_DOCUMENTOS"
+                      ]
+                    },
+                    "typeAdditionalInfo": {
+                      "type": "string",
+                      "maxLength": 70
+                    },
+                    "number": {
+                      "type": "string",
+                      "maxLength": 11
+                    },
+                    "checkDigit": {
+                      "type": "string",
+                      "maxLength": 2
+                    },
+                    "additionalInfo": {
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "maxLength": 50
+                    },
+                    "expirationDate": {
+                      "type": "string",
+                      "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])$|^NA$",
+                      "maxLength": 10
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "typeAdditionalInfo",
+                    "number",
+                    "checkDigit",
+                    "additionalInfo",
+                    "expirationDate"
+                  ]
+                }
+              ]
+            },
+            "hasBrazilianNationality": {
+              "type": "boolean"
+            },
+            "nationality": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "otherNationalitiesInfo": {
+                      "type": "string",
+                      "maxLength": 40
+                    },
+                    "documents": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "type": {
+                              "type": "string"
+                            },
+                            "number": {
+                              "type": "string",
+                              "maxLength": 40
+                            },
+                            "expirationDate": {
+                              "type": "string",
+                              "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])$|^NA$",
+                              "maxLength": 10
+                            },
+                            "issueDate": {
+                              "type": "string",
+                              "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])$|^NA$",
+                              "maxLength": 10
+                            },
+                            "country": {
+                              "type": [
+                                "string",
+                                "null"
+                              ],
+                              "maxLength": 80
+                            },
+                            "typeAdditionalInfo": {
+                              "type": [
+                                "string",
+                                "null"
+                              ],
+                              "maxLength": 70
+                            }
+                          },
+                          "required": [
+                            "type",
+                            "number",
+                            "expirationDate",
+                            "issueDate",
+                            "country",
+                            "typeAdditionalInfo"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "otherNationalitiesInfo",
+                    "documents"
+                  ]
+                }
+              ]
+            },
+            "filiation": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "MAE",
+                        "PAI",
+                        "SEM_FILIACAO"
+                      ]
+                    },
+                    "civilName": {
+                      "type": "string",
+                      "maxLength": 70
+                    },
+                    "socialName": {
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "maxLength": 70
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "civilName",
+                    "socialName"
+                  ]
+                }
+              ]
+            },
+            "contacts": {
+              "type": "object",
+              "properties": {
+                "postalAddresses": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "isMain": {
+                          "type": "boolean"
+                        },
+                        "address": {
+                          "type": "string",
+                          "maxLength": 150
+                        },
+                        "additionalInfo": {
+                          "type": [
+                            "string",
+                            "null"
+                          ],
+                          "maxLength": 30
+                        },
+                        "districtName": {
+                          "type": "string",
+                          "maxLength": 50
+                        },
+                        "townName": {
+                          "type": "string",
+                          "maxLength": 50
+                        },
+                        "ibgeTownCode": {
+                          "type": [
+                            "string",
+                            "null"
+                          ],
+                          "pattern": "\\d{7}$",
+                          "maxLength": 7
+                        },
+                        "countrySubDivision": {
+                          "type": "string",
+                          "enum": [
+                            "AC",
+                            "AL",
+                            "AP",
+                            "AM",
+                            "BA",
+                            "CE",
+                            "DF",
+                            "ES",
+                            "GO",
+                            "MA",
+                            "MT",
+                            "MS",
+                            "MG",
+                            "PA",
+                            "PB",
+                            "PR",
+                            "PE",
+                            "PI",
+                            "RJ",
+                            "RN",
+                            "RS",
+                            "RO",
+                            "RR",
+                            "SC",
+                            "SP",
+                            "SE",
+                            "TO",
+                            "NA"
+                          ]
+                        },
+                        "postCode": {
+                          "type": "string",
+                          "pattern": "\\d{8}|^NA$",
+                          "maxLength": 8
+                        },
+                        "country": {
+                          "type": "string",
+                          "maxLength": 80
+                        },
+                        "countryCode": {
+                          "type": [
+                            "string",
+                            "null"
+                          ],
+                          "maxLength": 3
+                        },
+                        "geographicCoordinates": {
+                          "type": "object",
+                          "properties": {
+                            "latitude": {
+                              "type": [
+                                "string",
+                                "null"
+                              ],
+                              "maxLength": 13
+                            },
+                            "longitude": {
+                              "type": [
+                                "string",
+                                "null"
+                              ],
+                              "maxLength": 13
+                            }
+                          },
+                          "required": [
+                            "latitude",
+                            "longitude"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "isMain",
+                        "address",
+                        "additionalInfo",
+                        "districtName",
+                        "townName",
+                        "ibgeTownCode",
+                        "countrySubDivision",
+                        "postCode",
+                        "country",
+                        "countryCode",
+                        "geographicCoordinates"
+                      ]
+                    }
+                  ]
+                },
+                "phones": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "isMain": {
+                          "type": "boolean"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "FIXO",
+                            "MOVEL",
+                            "OUTRO"
+                          ],
+                          "maxLength": 5
+                        },
+                        "additionalInfo": {
+                          "type": [
+                            "string",
+                            "null"
+                          ],
+                          "maxLength": 70
+                        },
+                        "countryCallingCode": {
+                          "type": "string",
+                          "maxLength": 4
+                        },
+                        "areaCode": {
+                          "type": "string",
+                          "enum": [
+                            "11",
+                            "12",
+                            "13",
+                            "14",
+                            "15",
+                            "16",
+                            "17",
+                            "18",
+                            "19",
+                            "21",
+                            "22",
+                            "24",
+                            "27",
+                            "28",
+                            "31",
+                            "32",
+                            "33",
+                            "34",
+                            "35",
+                            "37",
+                            "38",
+                            "41",
+                            "42",
+                            "43",
+                            "44",
+                            "45",
+                            "46",
+                            "47",
+                            "48",
+                            "49",
+                            "51",
+                            "53",
+                            "54",
+                            "55",
+                            "61",
+                            "62",
+                            "63",
+                            "64",
+                            "65",
+                            "66",
+                            "67",
+                            "68",
+                            "69",
+                            "71",
+                            "73",
+                            "74",
+                            "75",
+                            "77",
+                            "79",
+                            "81",
+                            "82",
+                            "83",
+                            "84",
+                            "85",
+                            "86",
+                            "87",
+                            "88",
+                            "89",
+                            "91",
+                            "92",
+                            "93",
+                            "94",
+                            "95",
+                            "96",
+                            "97",
+                            "98",
+                            "99",
+                            "NA"
+                          ]
+                        },
+                        "number": {
+                          "type": "string",
+                          "maxLength": 11
+                        },
+                        "phoneExtension": {
+                          "type": "string",
+                          "maxLength": 5
+                        }
+                      },
+                      "required": [
+                        "isMain",
+                        "type",
+                        "additionalInfo",
+                        "countryCallingCode",
+                        "areaCode",
+                        "number",
+                        "phoneExtension"
+                      ]
+                    }
+                  ]
+                },
+                "emails": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "isMain": {
+                          "type": "boolean"
+                        },
+                        "email": {
+                          "type": "string",
+                          "maxLength": 320
+                        }
+                      },
+                      "required": [
+                        "isMain",
+                        "email"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "postalAddresses",
+                "phones",
+                "emails"
+              ]
+            }
+          },
+          "required": [
+            "updateDateTime",
+            "personalId",
+            "brandName",
+            "civilName",
+            "socialName",
+            "birthDate",
+            "maritalStatusCode",
+            "maritalStatusAdditionalInfo",
+            "sex",
+            "companyCnpj",
+            "documents",
+            "otherDocuments",
+            "hasBrazilianNationality",
+            "nationality",
+            "filiation",
+            "contacts"
+          ]
+        }
+      ]
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "self": {
+          "type": "string"
+        },
+        "first": {
+          "type": "string"
+        },
+        "prev": {
+          "type": "string"
+        },
+        "next": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "self",
+        "first",
+        "prev",
+        "next",
+        "last"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "links",
+    "meta"
+  ]
+}

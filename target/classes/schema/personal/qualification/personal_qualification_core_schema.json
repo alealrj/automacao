@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "updateDateTime": {
+          "type": "string",
+          "maxLength": 20
+        },
+        "companyCnpj": {
+          "type": "string",
+          "maxLength": 14,
+          "pattern": "\\d{14}|^NA$"
+        },
+        "occupationCode": {
+          "type": "string",
+          "enum": [
+            "RECEITA_FEDERAL",
+            "CBO",
+            "OUTRO"
+          ]
+        },
+        "occupationDescription": {
+          "type": "string",
+          "maxLength": 100,
+          "pattern": "\\w*\\W*"
+        },
+        "informedIncome": {
+          "type": "object",
+          "properties": {
+            "frequency": {
+              "type": "string",
+              "enum": [
+                "DIARIA",
+                "SEMANAL",
+                "QUINZENAL",
+                "MENSAL",
+                "BIMESTRAL",
+                "TRIMESTRAL ",
+                "SEMESTRAL",
+                "ANUAL",
+                "SEM_FREQUENCIA_RENDA_INFORMADA",
+                "OUTROS"
+              ]
+            },
+            "amount": {
+              "type": "number",
+              "maxLength": 20,
+              "pattern": "^-?\\d{1"
+            },
+            "currency": {
+              "type": "string",
+              "maxLength": 3,
+              "pattern": "^(\\w{3}){1}$|^NA$"
+            },
+            "date": {
+              "type": "string",
+              "maxLength": 10,
+              "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])$|^NA$"
+            }
+          },
+          "required": [
+            "frequency",
+            "amount",
+            "currency",
+            "date"
+          ]
+        },
+        "informedPatrimony": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number",
+              "maxLength": 20,
+              "pattern": "^-?\\d{1"
+            },
+            "currency": {
+              "type": "string"
+            },
+            "year": {
+              "type": "integer",
+              "maxLength": 3,
+              "pattern": "^(\\w{3}){1}$|^NA$"
+            }
+          },
+          "required": [
+            "amount",
+            "currency",
+            "year"
+          ]
+        }
+      },
+      "required": [
+        "updateDateTime",
+        "companyCnpj",
+        "occupationCode",
+        "occupationDescription",
+        "informedIncome",
+        "informedPatrimony"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "meta"
+  ]
+}

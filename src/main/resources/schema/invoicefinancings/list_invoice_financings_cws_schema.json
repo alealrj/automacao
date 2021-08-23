@@ -1,0 +1,3654 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "contracts": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "ssistOrigem": {
+              "type": "string"
+            },
+            "soperacao": {
+              "type": "integer"
+            },
+            "sdtQuitacao": {
+              "type": "string"
+            },
+            "scarteira": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cmodldRzCtbil",
+            "sdexparaMod",
+            "swidPdraoOper",
+            "ssistOrigem",
+            "soperacao",
+            "sdtQuitacao",
+            "scarteira"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "contracts"
+  ]
+}

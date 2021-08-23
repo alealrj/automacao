@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "updateDateTime": {
+          "type": "string",
+          "maxLength": 20
+        },
+        "economicActivities": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "integer",
+                  "maxLength": 7,
+                  "pattern": "^\\d{7}$|^NA$"
+                },
+                "isMain": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "code",
+                "isMain"
+              ]
+            }
+          ]
+        },
+        "informedRevenue": {
+          "type": "object",
+          "properties": {
+            "frequency": {
+              "type": "string",
+              "enum": [
+                "DIARIA",
+                "SEMANAL",
+                "QUINZENAL",
+                "MENSAL",
+                "BIMESTRAL",
+                "TRIMESTRAL ",
+                "SEMESTRAL",
+                "ANUAL",
+                "SEM_FREQUENCIA_RENDA_INFORMADA",
+                "OUTROS"
+              ]
+            },
+            "frequencyAdditionalInfo": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "maxLength": 100
+            },
+            "amount": {
+              "type": "number",
+              "maxLength": 20,
+              "pattern": "^-?\\d{1"
+            },
+            "currency": {
+              "type": "string",
+              "maxLength": 3,
+              "pattern": "^(\\w{3}){1}$|^NA$"
+            },
+            "year": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "frequency",
+            "frequencyAdditionalInfo",
+            "amount",
+            "currency",
+            "year"
+          ]
+        },
+        "informedPatrimony": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number",
+              "maxLength": 20,
+              "pattern": "^-?\\d{1"
+            },
+            "currency": {
+              "type": "string",
+              "maxLength": 3,
+              "pattern": "^(\\w{3}){1}$|^NA$"
+            },
+            "date": {
+              "type": "string",
+              "maxLength": 20,
+              "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])$|^NA$"
+            }
+          },
+          "required": [
+            "amount",
+            "currency",
+            "date"
+          ]
+        }
+      },
+      "required": [
+        "updateDateTime",
+        "economicActivities",
+        "informedRevenue",
+        "informedPatrimony"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "meta"
+  ]
+}

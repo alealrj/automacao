@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "sourceSystem": {
+              "type": "string"
+            },
+            "companyCnpj": {
+              "type": "string"
+            },
+            "brandName": {
+              "type": "string"
+            },
+            "productSubModality": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "productType": {
+              "type": "string"
+            },
+            "productSubType": {
+              "type": "string"
+            },
+            "ipocCode": {
+              "type": "string"
+            },
+            "contractSourceSystem": {
+              "type": "string"
+            },
+            "portfolio": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "sourceSystem",
+            "companyCnpj",
+            "brandName",
+            "productSubModality",
+            "type",
+            "productType",
+            "productSubType",
+            "ipocCode",
+            "contractSourceSystem",
+            "portfolio"
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "meta"
+  ]
+}

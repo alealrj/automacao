@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "tipoPrazoTot": {
+      "type": "string"
+    },
+    "prazoTot": {
+      "type": "integer"
+    },
+    "tipoPrazoRest": {
+      "type": "string"
+    },
+    "prazoRest": {
+      "type": "integer"
+    },
+    "qtdParcPag": {
+      "type": "integer"
+    },
+    "qtdParcAvcr": {
+      "type": "integer"
+    },
+    "qtdParcVenc": {
+      "type": "integer"
+    },
+    "qtdeParcela": {
+      "type": "integer"
+    },
+    "qtdeOcorr": {
+      "type": "integer"
+    },
+    "ocorrencias": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "dataVenc": {
+              "type": "string"
+            },
+            "moeda": {
+              "type": "string"
+            },
+            "valorParc": {
+              "type": "number"
+            },
+            "numParc": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dataVenc",
+            "moeda",
+            "valorParc",
+            "numParc"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dataVenc": {
+              "type": "string"
+            },
+            "moeda": {
+              "type": "string"
+            },
+            "valorParc": {
+              "type": "number"
+            },
+            "numParc": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dataVenc",
+            "moeda",
+            "valorParc",
+            "numParc"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "tipoPrazoTot",
+    "prazoTot",
+    "tipoPrazoRest",
+    "prazoRest",
+    "qtdParcPag",
+    "qtdParcAvcr",
+    "qtdParcVenc",
+    "qtdeParcela",
+    "qtdeOcorr",
+    "ocorrencias"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "sqtdPcelaPg": {
+      "type": "integer"
+    },
+    "smoeda": {
+      "type": "string"
+    },
+    "ssdoDvdor": {
+      "type": "number"
+    },
+    "socorrencias": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "sdtPgto": {
+              "type": "string"
+            },
+            "svlrPgto": {
+              "type": "number"
+            },
+            "scodPgto": {
+              "type": "integer"
+            },
+            "ssitPgto": {
+              "type": "integer"
+            },
+            "stpoPgto": {
+              "type": "integer"
+            },
+            "scodPcela": {
+              "type": "integer"
+            },
+            "scorrecao": {
+              "type": "number"
+            },
+            "sjurusRemun": {
+              "type": "number"
+            },
+            "sjurusMorat": {
+              "type": "number"
+            },
+            "smulta": {
+              "type": "number"
+            },
+            "siofAtraso": {
+              "type": "number"
+            },
+            "spgtoAvulso": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "sdtPgto",
+            "svlrPgto",
+            "scodPgto",
+            "ssitPgto",
+            "stpoPgto",
+            "scodPcela",
+            "scorrecao",
+            "sjurusRemun",
+            "sjurusMorat",
+            "smulta",
+            "siofAtraso",
+            "spgtoAvulso"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "sqtdPcelaPg",
+    "smoeda",
+    "ssdoDvdor",
+    "socorrencias"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "availableAmount": {
+          "type": "number"
+        },
+        "blockedAmount": {
+          "type": "number"
+        },
+        "automaticallyInvestedAmount": {
+          "type": "integer"
+        },
+        "availableAmountCurrency": {
+          "type": "string"
+        },
+        "blockedAmountCurrency": {
+          "type": "string"
+        },
+        "automaticallyInvestedAmountCurrency": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "availableAmount",
+        "blockedAmount",
+        "automaticallyInvestedAmount",
+        "availableAmountCurrency",
+        "blockedAmountCurrency",
+        "automaticallyInvestedAmountCurrency"
+      ]
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "self": {
+          "type": "string"
+        },
+        "first": {
+          "type": "string"
+        },
+        "prev": {
+          "type": "string"
+        },
+        "next": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "self",
+        "first",
+        "prev",
+        "next",
+        "last"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "links",
+    "meta"
+  ]
+}

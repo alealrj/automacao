@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "completedAuthorisedPaymentType": {
+              "type": "string"
+            },
+            "creditDebitType": {
+              "type": "string"
+            },
+            "transactionName": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "number"
+            },
+            "transactionDate": {
+              "type": "string"
+            },
+            "transactionId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "completedAuthorisedPaymentType",
+            "creditDebitType",
+            "transactionName",
+            "amount",
+            "transactionDate",
+            "transactionId"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "completedAuthorisedPaymentType": {
+              "type": "string"
+            },
+            "creditDebitType": {
+              "type": "string"
+            },
+            "transactionName": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "number"
+            },
+            "transactionDate": {
+              "type": "string"
+            },
+            "transactionId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "completedAuthorisedPaymentType",
+            "creditDebitType",
+            "transactionName",
+            "amount",
+            "transactionDate",
+            "transactionId"
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "meta"
+  ]
+}

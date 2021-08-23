@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "currency": {
+              "type": "string"
+            },
+            "warrantyType": {
+              "type": "string"
+            },
+            "warrantySubType": {
+              "type": "string"
+            },
+            "warrantyAmount": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "currency",
+            "warrantyType",
+            "warrantySubType",
+            "warrantyAmount"
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "meta"
+  ]
+}

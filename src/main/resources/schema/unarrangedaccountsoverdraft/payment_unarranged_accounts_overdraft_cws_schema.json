@@ -1,0 +1,1174 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "ncontrAdepos": {
+      "type": "integer"
+    },
+    "npgtoAdepos": {
+      "type": "integer"
+    },
+    "dpgtoAdepos": {
+      "type": "string"
+    },
+    "saldoDev": {
+      "type": "number"
+    },
+    "qtdeParcPgto": {
+      "type": "integer"
+    },
+    "descTarifa": {
+      "type": "string"
+    },
+    "siglaTarifa": {
+      "type": "string"
+    },
+    "ctpoEncargo": {
+      "type": "integer"
+    },
+    "infoAdic": {
+      "type": "string"
+    },
+    "qtdePagamentos": {
+      "type": "integer"
+    },
+    "ocorrPgto": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoEnc": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoEnc"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoEnc": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoEnc"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoEnc": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoEnc"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoEnc": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoEnc"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoEnc": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoEnc"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoEnc": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoEnc"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoEnc": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoEnc"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoEnc": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoEnc"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoEnc": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoEnc"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pgtoPacto": {
+              "type": "string"
+            },
+            "dataPgto": {
+              "type": "string"
+            },
+            "valorPgto": {
+              "type": "number"
+            },
+            "qtdeTarifas": {
+              "type": "integer"
+            },
+            "ocorrTarifa": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoTarif": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoTarif"
+                  ]
+                }
+              ]
+            },
+            "qtdeEncargos": {
+              "type": "integer"
+            },
+            "ocorrEncargo": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "valorPgtoEnc": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "valorPgtoEnc"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "pgtoPacto",
+            "dataPgto",
+            "valorPgto",
+            "qtdeTarifas",
+            "ocorrTarifa",
+            "qtdeEncargos",
+            "ocorrEncargo"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "ncontrAdepos",
+    "npgtoAdepos",
+    "dpgtoAdepos",
+    "saldoDev",
+    "qtdeParcPgto",
+    "descTarifa",
+    "siglaTarifa",
+    "ctpoEncargo",
+    "infoAdic",
+    "qtdePagamentos",
+    "ocorrPgto"
+  ]
+}

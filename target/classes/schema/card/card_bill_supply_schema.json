@@ -1,0 +1,537 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "data": [
+        {
+          "billId": "3459087XXZTR",
+          "dueDate": "2021-05-21",
+          "billTotalAmount": 100000.04,
+          "billTotalAmountCurrency": "BRL",
+          "billMinimumAmount": 1000.04,
+          "billMinimumAmountCurrency": "BRL",
+          "isInstalment": false,
+          "financeCharges": [
+            {
+              "type": "JUROS_REMUNERATORIOS_ATRASO_PAGAMENTO_FATURA",
+              "additionalInfo": "Informações Adicionais",
+              "amount": 100000.04,
+              "currency": "BRL"
+            }
+          ],
+          "payments": [
+            {
+              "valueType": "VALOR_PAGAMENTO_FATURA_PARCELADO",
+              "paymentDate": "2021-05-21",
+              "paymentMode": "DEBITO_CONTA_CORRENTE",
+              "amount": 100000.04,
+              "currency": "BRL"
+            }
+          ]
+        }
+      ],
+      "links": {
+        "self": "",
+        "first": "",
+        "prev": "",
+        "next": "",
+        "last": ""
+      },
+      "meta": {
+        "totalRecords": 1,
+        "totalPages": 1,
+        "requestDateTime": "2021-05-21T08:30:00Z"
+      }
+    }
+  ],
+  "required": [
+    "data",
+    "links",
+    "meta"
+  ],
+  "properties": {
+    "data": {
+      "$id": "#/properties/data",
+      "type": "array",
+      "title": "The data schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "billId": "3459087XXZTR",
+            "dueDate": "2021-05-21",
+            "billTotalAmount": 100000.04,
+            "billTotalAmountCurrency": "BRL",
+            "billMinimumAmount": 1000.04,
+            "billMinimumAmountCurrency": "BRL",
+            "isInstalment": false,
+            "financeCharges": [
+              {
+                "type": "JUROS_REMUNERATORIOS_ATRASO_PAGAMENTO_FATURA",
+                "additionalInfo": "Informações Adicionais",
+                "amount": 100000.04,
+                "currency": "BRL"
+              }
+            ],
+            "payments": [
+              {
+                "valueType": "VALOR_PAGAMENTO_FATURA_PARCELADO",
+                "paymentDate": "2021-05-21",
+                "paymentMode": "DEBITO_CONTA_CORRENTE",
+                "amount": 100000.04,
+                "currency": "BRL"
+              }
+            ]
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/data/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/data/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "billId": "3459087XXZTR",
+                "dueDate": "2021-05-21",
+                "billTotalAmount": 100000.04,
+                "billTotalAmountCurrency": "BRL",
+                "billMinimumAmount": 1000.04,
+                "billMinimumAmountCurrency": "BRL",
+                "isInstalment": false,
+                "financeCharges": [
+                  {
+                    "type": "JUROS_REMUNERATORIOS_ATRASO_PAGAMENTO_FATURA",
+                    "additionalInfo": "Informações Adicionais",
+                    "amount": 100000.04,
+                    "currency": "BRL"
+                  }
+                ],
+                "payments": [
+                  {
+                    "valueType": "VALOR_PAGAMENTO_FATURA_PARCELADO",
+                    "paymentDate": "2021-05-21",
+                    "paymentMode": "DEBITO_CONTA_CORRENTE",
+                    "amount": 100000.04,
+                    "currency": "BRL"
+                  }
+                ]
+              }
+            ],
+            "required": [
+              "billId",
+              "dueDate",
+              "billTotalAmount",
+              "billTotalAmountCurrency",
+              "billMinimumAmount",
+              "billMinimumAmountCurrency",
+              "isInstalment",
+              "financeCharges",
+              "payments"
+            ],
+            "properties": {
+              "billId": {
+                "$id": "#/properties/data/items/anyOf/0/properties/billId",
+                "type": "string",
+                "title": "The billId schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "3459087XXZTR"
+                ]
+              },
+              "dueDate": {
+                "$id": "#/properties/data/items/anyOf/0/properties/dueDate",
+                "type": "string",
+                "title": "The dueDate schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2021-05-21"
+                ]
+              },
+              "billTotalAmount": {
+                "$id": "#/properties/data/items/anyOf/0/properties/billTotalAmount",
+                "type": "number",
+                "title": "The billTotalAmount schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0.0,
+                "examples": [
+                  100000.04
+                ]
+              },
+              "billTotalAmountCurrency": {
+                "$id": "#/properties/data/items/anyOf/0/properties/billTotalAmountCurrency",
+                "type": "string",
+                "title": "The billTotalAmountCurrency schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "BRL"
+                ]
+              },
+              "billMinimumAmount": {
+                "$id": "#/properties/data/items/anyOf/0/properties/billMinimumAmount",
+                "type": "number",
+                "title": "The billMinimumAmount schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0.0,
+                "examples": [
+                  1000.04
+                ]
+              },
+              "billMinimumAmountCurrency": {
+                "$id": "#/properties/data/items/anyOf/0/properties/billMinimumAmountCurrency",
+                "type": "string",
+                "title": "The billMinimumAmountCurrency schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "BRL"
+                ]
+              },
+              "isInstalment": {
+                "$id": "#/properties/data/items/anyOf/0/properties/isInstalment",
+                "type": "boolean",
+                "title": "The isInstalment schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "financeCharges": {
+                "$id": "#/properties/data/items/anyOf/0/properties/financeCharges",
+                "type": "array",
+                "title": "The financeCharges schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": [],
+                "examples": [
+                  [
+                    {
+                      "type": "JUROS_REMUNERATORIOS_ATRASO_PAGAMENTO_FATURA",
+                      "additionalInfo": "Informações Adicionais",
+                      "amount": 100000.04,
+                      "currency": "BRL"
+                    }
+                  ]
+                ],
+                "additionalItems": true,
+                "items": {
+                  "$id": "#/properties/data/items/anyOf/0/properties/financeCharges/items",
+                  "anyOf": [
+                    {
+                      "$id": "#/properties/data/items/anyOf/0/properties/financeCharges/items/anyOf/0",
+                      "type": "object",
+                      "title": "The first anyOf schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": {},
+                      "examples": [
+                        {
+                          "type": "JUROS_REMUNERATORIOS_ATRASO_PAGAMENTO_FATURA",
+                          "additionalInfo": "Informações Adicionais",
+                          "amount": 100000.04,
+                          "currency": "BRL"
+                        }
+                      ],
+                      "required": [
+                        "type",
+                        "additionalInfo",
+                        "amount",
+                        "currency"
+                      ],
+                      "properties": {
+                        "type": {
+                          "$id": "#/properties/data/items/anyOf/0/properties/financeCharges/items/anyOf/0/properties/type",
+                          "type": "string",
+                          "title": "The type schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "JUROS_REMUNERATORIOS_ATRASO_PAGAMENTO_FATURA"
+                          ]
+                        },
+                        "additionalInfo": {
+                          "$id": "#/properties/data/items/anyOf/0/properties/financeCharges/items/anyOf/0/properties/additionalInfo",
+                          "type": "string",
+                          "title": "The additionalInfo schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "Informações Adicionais"
+                          ]
+                        },
+                        "amount": {
+                          "$id": "#/properties/data/items/anyOf/0/properties/financeCharges/items/anyOf/0/properties/amount",
+                          "type": "number",
+                          "title": "The amount schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": 0.0,
+                          "examples": [
+                            100000.04
+                          ]
+                        },
+                        "currency": {
+                          "$id": "#/properties/data/items/anyOf/0/properties/financeCharges/items/anyOf/0/properties/currency",
+                          "type": "string",
+                          "title": "The currency schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "BRL"
+                          ]
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  ]
+                }
+              },
+              "payments": {
+                "$id": "#/properties/data/items/anyOf/0/properties/payments",
+                "type": "array",
+                "title": "The payments schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": [],
+                "examples": [
+                  [
+                    {
+                      "valueType": "VALOR_PAGAMENTO_FATURA_PARCELADO",
+                      "paymentDate": "2021-05-21",
+                      "paymentMode": "DEBITO_CONTA_CORRENTE",
+                      "amount": 100000.04,
+                      "currency": "BRL"
+                    }
+                  ]
+                ],
+                "additionalItems": true,
+                "items": {
+                  "$id": "#/properties/data/items/anyOf/0/properties/payments/items",
+                  "anyOf": [
+                    {
+                      "$id": "#/properties/data/items/anyOf/0/properties/payments/items/anyOf/0",
+                      "type": "object",
+                      "title": "The first anyOf schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": {},
+                      "examples": [
+                        {
+                          "valueType": "VALOR_PAGAMENTO_FATURA_PARCELADO",
+                          "paymentDate": "2021-05-21",
+                          "paymentMode": "DEBITO_CONTA_CORRENTE",
+                          "amount": 100000.04,
+                          "currency": "BRL"
+                        }
+                      ],
+                      "required": [
+                        "valueType",
+                        "paymentDate",
+                        "paymentMode",
+                        "amount",
+                        "currency"
+                      ],
+                      "properties": {
+                        "valueType": {
+                          "$id": "#/properties/data/items/anyOf/0/properties/payments/items/anyOf/0/properties/valueType",
+                          "type": "string",
+                          "title": "The valueType schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "VALOR_PAGAMENTO_FATURA_PARCELADO"
+                          ]
+                        },
+                        "paymentDate": {
+                          "$id": "#/properties/data/items/anyOf/0/properties/payments/items/anyOf/0/properties/paymentDate",
+                          "type": "string",
+                          "title": "The paymentDate schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "2021-05-21"
+                          ]
+                        },
+                        "paymentMode": {
+                          "$id": "#/properties/data/items/anyOf/0/properties/payments/items/anyOf/0/properties/paymentMode",
+                          "type": "string",
+                          "title": "The paymentMode schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "DEBITO_CONTA_CORRENTE"
+                          ]
+                        },
+                        "amount": {
+                          "$id": "#/properties/data/items/anyOf/0/properties/payments/items/anyOf/0/properties/amount",
+                          "type": "number",
+                          "title": "The amount schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": 0.0,
+                          "examples": [
+                            100000.04
+                          ]
+                        },
+                        "currency": {
+                          "$id": "#/properties/data/items/anyOf/0/properties/payments/items/anyOf/0/properties/currency",
+                          "type": "string",
+                          "title": "The currency schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "BRL"
+                          ]
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  ]
+                }
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "links": {
+      "$id": "#/properties/links",
+      "type": "object",
+      "title": "The links schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "self": "",
+          "first": "",
+          "prev": "",
+          "next": "",
+          "last": ""
+        }
+      ],
+      "required": [
+        "self",
+        "first",
+        "prev",
+        "next",
+        "last"
+      ],
+      "properties": {
+        "self": {
+          "$id": "#/properties/links/properties/self",
+          "type": "string",
+          "title": "The self schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "first": {
+          "$id": "#/properties/links/properties/first",
+          "type": "string",
+          "title": "The first schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "prev": {
+          "$id": "#/properties/links/properties/prev",
+          "type": "string",
+          "title": "The prev schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "next": {
+          "$id": "#/properties/links/properties/next",
+          "type": "string",
+          "title": "The next schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "last": {
+          "$id": "#/properties/links/properties/last",
+          "type": "string",
+          "title": "The last schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "meta": {
+      "$id": "#/properties/meta",
+      "type": "object",
+      "title": "The meta schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "totalRecords": 1,
+          "totalPages": 1,
+          "requestDateTime": "2021-05-21T08:30:00Z"
+        }
+      ],
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ],
+      "properties": {
+        "totalRecords": {
+          "$id": "#/properties/meta/properties/totalRecords",
+          "type": "integer",
+          "title": "The totalRecords schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        },
+        "totalPages": {
+          "$id": "#/properties/meta/properties/totalPages",
+          "type": "integer",
+          "title": "The totalPages schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        },
+        "requestDateTime": {
+          "$id": "#/properties/meta/properties/requestDateTime",
+          "type": "string",
+          "title": "The requestDateTime schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "2021-05-21T08:30:00Z"
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,40 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "object",
+            "properties": {
+                "overdraftLimitContracted": {
+                    "type": ["integer", "null"]
+                },
+                "overdraftLimitUsed": {
+                    "type": ["integer", "null"]
+                }
+            },
+            "required": [
+                "overdraftLimitContracted",
+                "overdraftLimitUsed"
+            ]
+        },
+        "meta": {
+            "type": "object",
+            "properties": {
+                "totalRecords": {
+                    "type": "integer"
+                },
+                "totalPages": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "totalRecords",
+                "totalPages"
+            ]
+        }
+    },
+    "required": [
+        "data",
+        "meta"
+    ]
+}

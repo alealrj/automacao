@@ -1,0 +1,315 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "origem": "b2k",
+      "codigoRetorno": "F0000",
+      "mensagem": "ACESSO REALIZADO COM SUCESSO",
+      "chaveReestart": "",
+      "Transacoes": [
+        {
+          "codigo": 6504,
+          "dataEfetiva": "27052021",
+          "dataPostagem": "31052021",
+          "descricao": "PAG BOLETO BANCARIO",
+          "forma": "V",
+          "numeroParcela": 0,
+          "quantidadeParcelas": 0,
+          "tipo": "C",
+          "valorReal": "00000025500",
+          "valorDolar": "00000000000",
+          "valorOrigem": "00000025500",
+          "cotacaoDolar": 0,
+          "numeroCartao": "376600999999157",
+          "moedaOrigem": "986",
+          "codigoMcc": "0000"
+        }
+      ]
+    }
+  ],
+  "required": [
+    "origem",
+    "codigoRetorno",
+    "mensagem",
+    "chaveReestart",
+    "Transacoes"
+  ],
+  "properties": {
+    "origem": {
+      "$id": "#/properties/origem",
+      "type": "string",
+      "title": "The origem schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "b2k"
+      ]
+    },
+    "codigoRetorno": {
+      "$id": "#/properties/codigoRetorno",
+      "type": "string",
+      "title": "The codigoRetorno schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "F0000"
+      ]
+    },
+    "mensagem": {
+      "$id": "#/properties/mensagem",
+      "type": "string",
+      "title": "The mensagem schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "ACESSO REALIZADO COM SUCESSO"
+      ]
+    },
+    "chaveReestart": {
+      "$id": "#/properties/chaveReestart",
+      "type": "string",
+      "title": "The chaveReestart schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Transacoes": {
+      "$id": "#/properties/Transacoes",
+      "type": "array",
+      "title": "The Transacoes schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "codigo": 6504,
+            "dataEfetiva": "27052021",
+            "dataPostagem": "31052021",
+            "descricao": "PAG BOLETO BANCARIO",
+            "forma": "V",
+            "numeroParcela": 0,
+            "quantidadeParcelas": 0,
+            "tipo": "C",
+            "valorReal": "00000025500",
+            "valorDolar": "00000000000",
+            "valorOrigem": "00000025500",
+            "cotacaoDolar": 0,
+            "numeroCartao": "376600999999157",
+            "moedaOrigem": "986",
+            "codigoMcc": "0000"
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/Transacoes/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/Transacoes/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "codigo": 6504,
+                "dataEfetiva": "27052021",
+                "dataPostagem": "31052021",
+                "descricao": "PAG BOLETO BANCARIO",
+                "forma": "V",
+                "numeroParcela": 0,
+                "quantidadeParcelas": 0,
+                "tipo": "C",
+                "valorReal": "00000025500",
+                "valorDolar": "00000000000",
+                "valorOrigem": "00000025500",
+                "cotacaoDolar": 0,
+                "numeroCartao": "376600999999157",
+                "moedaOrigem": "986",
+                "codigoMcc": "0000"
+              }
+            ],
+            "required": [
+              "codigo",
+              "dataEfetiva",
+              "dataPostagem",
+              "descricao",
+              "forma",
+              "numeroParcela",
+              "quantidadeParcelas",
+              "tipo",
+              "valorReal",
+              "valorDolar",
+              "valorOrigem",
+              "cotacaoDolar",
+              "numeroCartao",
+              "moedaOrigem",
+              "codigoMcc"
+            ],
+            "properties": {
+              "codigo": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/codigo",
+                "type": "integer",
+                "title": "The codigo schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  6504
+                ]
+              },
+              "dataEfetiva": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/dataEfetiva",
+                "type": "string",
+                "title": "The dataEfetiva schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "27052021"
+                ]
+              },
+              "dataPostagem": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/dataPostagem",
+                "type": "string",
+                "title": "The dataPostagem schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "31052021"
+                ]
+              },
+              "descricao": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/descricao",
+                "type": "string",
+                "title": "The descricao schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "PAG BOLETO BANCARIO"
+                ]
+              },
+              "forma": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/forma",
+                "type": "string",
+                "title": "The forma schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "V"
+                ]
+              },
+              "numeroParcela": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/numeroParcela",
+                "type": "integer",
+                "title": "The numeroParcela schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "quantidadeParcelas": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/quantidadeParcelas",
+                "type": "integer",
+                "title": "The quantidadeParcelas schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "tipo": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/tipo",
+                "type": "string",
+                "title": "The tipo schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "C"
+                ]
+              },
+              "valorReal": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/valorReal",
+                "type": "string",
+                "title": "The valorReal schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "00000025500"
+                ]
+              },
+              "valorDolar": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/valorDolar",
+                "type": "string",
+                "title": "The valorDolar schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "00000000000"
+                ]
+              },
+              "valorOrigem": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/valorOrigem",
+                "type": "string",
+                "title": "The valorOrigem schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "00000025500"
+                ]
+              },
+              "cotacaoDolar": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/cotacaoDolar",
+                "type": "integer",
+                "title": "The cotacaoDolar schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "numeroCartao": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/numeroCartao",
+                "type": "string",
+                "title": "The numeroCartao schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "376600999999157"
+                ]
+              },
+              "moedaOrigem": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/moedaOrigem",
+                "type": "string",
+                "title": "The moedaOrigem schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "986"
+                ]
+              },
+              "codigoMcc": {
+                "$id": "#/properties/Transacoes/items/anyOf/0/properties/codigoMcc",
+                "type": "string",
+                "title": "The codigoMcc schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "0000"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}

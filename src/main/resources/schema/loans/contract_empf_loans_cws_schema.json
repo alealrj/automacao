@@ -1,0 +1,316 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "ccontr": {
+      "type": "integer"
+    },
+    "widPdraoOper": {
+      "type": "string"
+    },
+    "cmodlRzCtbil": {
+      "type": "integer"
+    },
+    "dfimVgciaContr": {
+      "type": "string"
+    },
+    "rrsumoProdtServc": {
+      "type": "string"
+    },
+    "csprod": {
+      "type": "integer"
+    },
+    "ctpoSitContr": {
+      "type": "integer"
+    },
+    "vcontr": {
+      "type": "number"
+    },
+    "vprincContr": {
+      "type": "number"
+    },
+    "vbemFincd": {
+      "type": "number"
+    },
+    "dcelebContr": {
+      "type": "string"
+    },
+    "dvctoPrimPcela": {
+      "type": "string"
+    },
+    "dvctoContr": {
+      "type": "string"
+    },
+    "prazo": {
+      "type": "integer"
+    },
+    "qpcela": {
+      "type": "integer"
+    },
+    "qpcelaPg": {
+      "type": "integer"
+    },
+    "cbco": {
+      "type": "integer"
+    },
+    "cjuncDepdc": {
+      "type": "integer"
+    },
+    "cpssoaDcfi": {
+      "type": "integer"
+    },
+    "cseqTtlar": {
+      "type": "integer"
+    },
+    "ccgcCpf": {
+      "type": "integer"
+    },
+    "cflialCgc": {
+      "type": "integer"
+    },
+    "cctrlCpfCgc": {
+      "type": "integer"
+    },
+    "cfamlContrMae": {
+      "type": "integer"
+    },
+    "ccontrMae": {
+      "type": "integer"
+    },
+    "ccgcCpfConv": {
+      "type": "integer"
+    },
+    "cflialCgcConv": {
+      "type": "integer"
+    },
+    "cctrlCpfCgcConv": {
+      "type": "integer"
+    },
+    "cplanoPgto": {
+      "type": "integer"
+    },
+    "cincidJuro": {
+      "type": "integer"
+    },
+    "cincidCm": {
+      "type": "integer"
+    },
+    "qperTempoPrinc": {
+      "type": "integer"
+    },
+    "cundTempoPrinc": {
+      "type": "integer"
+    },
+    "ctpoFreqPrinc": {
+      "type": "integer"
+    },
+    "qperTempoJuro": {
+      "type": "integer"
+    },
+    "cundTempoJuro": {
+      "type": "integer"
+    },
+    "ctpoFreqJuro": {
+      "type": "integer"
+    },
+    "qperTempoCm": {
+      "type": "integer"
+    },
+    "cundTempoCm": {
+      "type": "integer"
+    },
+    "ctpoFreqCm": {
+      "type": "integer"
+    },
+    "cformaCalc": {
+      "type": "integer"
+    },
+    "ccalcEquivTx": {
+      "type": "string"
+    },
+    "ctpoTxDcfi": {
+      "type": "integer"
+    },
+    "cperdcApresTx": {
+      "type": "integer"
+    },
+    "cmodldAtulz": {
+      "type": "integer"
+    },
+    "cidtfdIndcdTaxaJuros": {
+      "type": "integer"
+    },
+    "ctpoJuro": {
+      "type": "integer"
+    },
+    "ctpoDiaCalcVcto": {
+      "type": "integer"
+    },
+    "ptxJuro": {
+      "type": "number"
+    },
+    "putlzdIndcdDesc": {
+      "type": "number"
+    },
+    "vpgtoAutrzTribt": {
+      "type": "number"
+    },
+    "cfinanIof": {
+      "type": "integer"
+    },
+    "vpgtoAutrzSegur": {
+      "type": "number"
+    },
+    "cfinanSegur": {
+      "type": "integer"
+    },
+    "vpgtoAutrzTarif": {
+      "type": "number"
+    },
+    "cfinanTxContr": {
+      "type": "integer"
+    },
+    "vpgtoServcTerc": {
+      "type": "number"
+    },
+    "cfinanServcTerc": {
+      "type": "integer"
+    },
+    "vpgtoRegCartr": {
+      "type": "number"
+    },
+    "cfinanReg": {
+      "type": "integer"
+    },
+    "pcustoEfetvMes": {
+      "type": "number"
+    },
+    "pcustoEfetvAno": {
+      "type": "number"
+    },
+    "cregraMora": {
+      "type": "integer"
+    },
+    "cutilzTxContr": {
+      "type": "integer"
+    },
+    "cidtfdIndcdPermc": {
+      "type": "integer"
+    },
+    "ctpoCalcPermc": {
+      "type": "integer"
+    },
+    "pspreadCdi": {
+      "type": "number"
+    },
+    "pjuroPermcFixa": {
+      "type": "number"
+    },
+    "cidtfdIndcdRegraMora": {
+      "type": "integer"
+    },
+    "cincidMulta": {
+      "type": "integer"
+    },
+    "ptxMulta": {
+      "type": "number"
+    },
+    "pjuroMoraMes": {
+      "type": "number"
+    },
+    "ctribPcelaVencd": {
+      "type": "integer"
+    },
+    "piof": {
+      "type": "number"
+    },
+    "tpRegraTac": {
+      "type": "integer"
+    },
+    "vlTarifaTac": {
+      "type": "number"
+    },
+    "pcTarifaTac": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "ccontr",
+    "widPdraoOper",
+    "cmodlRzCtbil",
+    "dfimVgciaContr",
+    "rrsumoProdtServc",
+    "csprod",
+    "ctpoSitContr",
+    "vcontr",
+    "vprincContr",
+    "vbemFincd",
+    "dcelebContr",
+    "dvctoPrimPcela",
+    "dvctoContr",
+    "prazo",
+    "qpcela",
+    "qpcelaPg",
+    "cbco",
+    "cjuncDepdc",
+    "cpssoaDcfi",
+    "cseqTtlar",
+    "ccgcCpf",
+    "cflialCgc",
+    "cctrlCpfCgc",
+    "cfamlContrMae",
+    "ccontrMae",
+    "ccgcCpfConv",
+    "cflialCgcConv",
+    "cctrlCpfCgcConv",
+    "cplanoPgto",
+    "cincidJuro",
+    "cincidCm",
+    "qperTempoPrinc",
+    "cundTempoPrinc",
+    "ctpoFreqPrinc",
+    "qperTempoJuro",
+    "cundTempoJuro",
+    "ctpoFreqJuro",
+    "qperTempoCm",
+    "cundTempoCm",
+    "ctpoFreqCm",
+    "cformaCalc",
+    "ccalcEquivTx",
+    "ctpoTxDcfi",
+    "cperdcApresTx",
+    "cmodldAtulz",
+    "cidtfdIndcdTaxaJuros",
+    "ctpoJuro",
+    "ctpoDiaCalcVcto",
+    "ptxJuro",
+    "putlzdIndcdDesc",
+    "vpgtoAutrzTribt",
+    "cfinanIof",
+    "vpgtoAutrzSegur",
+    "cfinanSegur",
+    "vpgtoAutrzTarif",
+    "cfinanTxContr",
+    "vpgtoServcTerc",
+    "cfinanServcTerc",
+    "vpgtoRegCartr",
+    "cfinanReg",
+    "pcustoEfetvMes",
+    "pcustoEfetvAno",
+    "cregraMora",
+    "cutilzTxContr",
+    "cidtfdIndcdPermc",
+    "ctpoCalcPermc",
+    "pspreadCdi",
+    "pjuroPermcFixa",
+    "cidtfdIndcdRegraMora",
+    "cincidMulta",
+    "ptxMulta",
+    "pjuroMoraMes",
+    "ctribPcelaVencd",
+    "piof",
+    "tpRegraTac",
+    "vlTarifaTac",
+    "pcTarifaTac"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "object",
+            "properties": {
+                "overdraftLimitContracted": {
+                    "type": ["number", "null"]
+                },
+                "overdraftContractedLimitCurrency": {
+                    "type": "string"
+                },
+                "overdraftLimitUsed": {
+                    "type": ["number", "null"]
+                },
+                "overdraftLimitUsedCurrency": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "overdraftLimitContracted",
+                "overdraftContractedLimitCurrency",
+                "overdraftLimitUsed",
+                "overdraftLimitUsedCurrency"
+            ]
+        },
+        "links": {
+            "type": "object",
+            "properties": {
+                "self": {
+                    "type": "string"
+                },
+                "first": {
+                    "type": "string"
+                },
+                "prev": {
+                    "type": "string"
+                },
+                "next": {
+                    "type": "string"
+                },
+                "last": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "self",
+                "first",
+                "prev",
+                "next",
+                "last"
+            ]
+        },
+        "meta": {
+            "type": "object",
+            "properties": {
+                "totalRecords": {
+                    "type": "integer"
+                },
+                "totalPages": {
+                    "type": "integer"
+                },
+                "requestDateTime": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "totalRecords",
+                "totalPages",
+                "requestDateTime"
+            ]
+        }
+    },
+    "required": [
+        "data",
+        "links",
+        "meta"
+    ]
+}

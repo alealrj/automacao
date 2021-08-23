@@ -1,0 +1,53 @@
+{
+  "$ schema": " http://json-schema.org/draft-04/schema#",
+  " type ": " object ",
+  " properties ": {
+    " data ": {
+      " type ": " object ",
+      " properties ": {
+        " availableAmount ": {
+          " type ": [
+            " number ",
+            " null "
+          ]
+        },
+        "BlockAmount": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "automaticallyInvestedAmount": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        " availableAmount ",
+        " BlockAmount ",
+        " automaticallyInvestedAmount "
+      ]
+    },
+    " meta ": {
+      " type ": " object ",
+      " properties ": {
+        " totalRecords ": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "meta"
+  ]
+}

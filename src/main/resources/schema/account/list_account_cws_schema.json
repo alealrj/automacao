@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "ccpfCnpj": {
+              "type": "string"
+            },
+            "cflialCpfCnpj": {
+              "type": "string"
+            },
+            "cctrlCpfCnpj": {
+              "type": "string"
+            },
+            "seqTitularClie": {
+              "type": "string"
+            },
+            "cpssoa": {
+              "type": "string"
+            },
+            "codGrupoRz": {
+              "type": "string"
+            },
+            "codSubGpRz": {
+              "type": "string"
+            },
+            "cpssoaJuridContr": {
+              "type": "string"
+            },
+            "ctpoContrNegoc": {
+              "type": "string"
+            },
+            "nseqContrNegoc": {
+              "type": "string"
+            },
+            "scsgmtoCliCta": {
+              "type": "string"
+            },
+            "srsgmtoCliCta": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ccpfCnpj",
+            "cflialCpfCnpj",
+            "cctrlCpfCnpj",
+            "seqTitularClie",
+            "cpssoa",
+            "codGrupoRz",
+            "codSubGpRz",
+            "cpssoaJuridContr",
+            "ctpoContrNegoc",
+            "nseqContrNegoc",
+            "scsgmtoCliCta",
+            "srsgmtoCliCta"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

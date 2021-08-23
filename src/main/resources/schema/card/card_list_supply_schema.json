@@ -1,0 +1,311 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "data": [
+        {
+          "creditCardAccountId": "376430999972453",
+          "brandName": "Banco Bradesco ",
+          "companyCnpj": "21128159000166",
+          "name": "Denominação/Identificação do nome da conta de pagamento ",
+          "productType": "GREEN",
+          "productAdditionalInfo": "",
+          "creditCardNetwork": "VISA",
+          "networkAdditionalInfo": ""
+        }
+      ],
+      "links": {
+        "self": "",
+        "first": "",
+        "prev": "",
+        "next": "",
+        "last": ""
+      },
+      "meta": {
+        "totalRecords": 1,
+        "totalPages": 1,
+        "requestDateTime": "2021-06-13T12:29:15:-0300"
+      }
+    }
+  ],
+  "required": [
+    "data",
+    "links",
+    "meta"
+  ],
+  "properties": {
+    "data": {
+      "$id": "#/properties/data",
+      "type": "array",
+      "title": "The data schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "creditCardAccountId": "376430999972453",
+            "brandName": "Banco Bradesco ",
+            "companyCnpj": "21128159000166",
+            "name": "Denominação/Identificação do nome da conta de pagamento ",
+            "productType": "GREEN",
+            "productAdditionalInfo": "",
+            "creditCardNetwork": "VISA",
+            "networkAdditionalInfo": ""
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/data/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/data/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "creditCardAccountId": "376430999972453",
+                "brandName": "Banco Bradesco ",
+                "companyCnpj": "21128159000166",
+                "name": "Denominação/Identificação do nome da conta de pagamento ",
+                "productType": "GREEN",
+                "productAdditionalInfo": "",
+                "creditCardNetwork": "VISA",
+                "networkAdditionalInfo": ""
+              }
+            ],
+            "required": [
+              "creditCardAccountId",
+              "brandName",
+              "companyCnpj",
+              "name",
+              "productType",
+              "productAdditionalInfo",
+              "creditCardNetwork",
+              "networkAdditionalInfo"
+            ],
+            "properties": {
+              "creditCardAccountId": {
+                "$id": "#/properties/data/items/anyOf/0/properties/creditCardAccountId",
+                "type": "string",
+                "title": "The creditCardAccountId schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "376430999972453"
+                ]
+              },
+              "brandName": {
+                "$id": "#/properties/data/items/anyOf/0/properties/brandName",
+                "type": "string",
+                "title": "The brandName schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Banco Bradesco "
+                ]
+              },
+              "companyCnpj": {
+                "$id": "#/properties/data/items/anyOf/0/properties/companyCnpj",
+                "type": "string",
+                "title": "The companyCnpj schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "21128159000166"
+                ]
+              },
+              "name": {
+                "$id": "#/properties/data/items/anyOf/0/properties/name",
+                "type": "string",
+                "title": "The name schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Denominação/Identificação do nome da conta de pagamento "
+                ]
+              },
+              "productType": {
+                "$id": "#/properties/data/items/anyOf/0/properties/productType",
+                "type": "string",
+                "title": "The productType schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "GREEN"
+                ]
+              },
+              "productAdditionalInfo": {
+                "$id": "#/properties/data/items/anyOf/0/properties/productAdditionalInfo",
+                "type": "string",
+                "title": "The productAdditionalInfo schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              },
+              "creditCardNetwork": {
+                "$id": "#/properties/data/items/anyOf/0/properties/creditCardNetwork",
+                "type": "string",
+                "title": "The creditCardNetwork schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "VISA"
+                ]
+              },
+              "networkAdditionalInfo": {
+                "$id": "#/properties/data/items/anyOf/0/properties/networkAdditionalInfo",
+                "type": "string",
+                "title": "The networkAdditionalInfo schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "links": {
+      "$id": "#/properties/links",
+      "type": "object",
+      "title": "The links schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "self": "",
+          "first": "",
+          "prev": "",
+          "next": "",
+          "last": ""
+        }
+      ],
+      "required": [
+        "self",
+        "first",
+        "prev",
+        "next",
+        "last"
+      ],
+      "properties": {
+        "self": {
+          "$id": "#/properties/links/properties/self",
+          "type": "string",
+          "title": "The self schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "first": {
+          "$id": "#/properties/links/properties/first",
+          "type": "string",
+          "title": "The first schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "prev": {
+          "$id": "#/properties/links/properties/prev",
+          "type": "string",
+          "title": "The prev schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "next": {
+          "$id": "#/properties/links/properties/next",
+          "type": "string",
+          "title": "The next schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "last": {
+          "$id": "#/properties/links/properties/last",
+          "type": "string",
+          "title": "The last schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "meta": {
+      "$id": "#/properties/meta",
+      "type": "object",
+      "title": "The meta schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "totalRecords": 1,
+          "totalPages": 1,
+          "requestDateTime": "2021-06-13T12:29:15:-0300"
+        }
+      ],
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ],
+      "properties": {
+        "totalRecords": {
+          "$id": "#/properties/meta/properties/totalRecords",
+          "type": "integer",
+          "title": "The totalRecords schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        },
+        "totalPages": {
+          "$id": "#/properties/meta/properties/totalPages",
+          "type": "integer",
+          "title": "The totalPages schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        },
+        "requestDateTime": {
+          "$id": "#/properties/meta/properties/requestDateTime",
+          "type": "string",
+          "title": "The requestDateTime schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "2021-06-13T12:29:15:-0300"
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

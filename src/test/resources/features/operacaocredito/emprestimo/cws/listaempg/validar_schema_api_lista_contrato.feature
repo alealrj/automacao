@@ -1,0 +1,7 @@
+@TID95090REV0.2.0
+Feature: Validar schema API de Empréstimos - Lista EMPG (CWS)
+
+  Scenario: Validar schema API de Empréstimos - Lista EMPG (CWS)
+    Given que seja feito uma requisição POST no endpoint de Empréstimos - Lista EMPG
+    When pegar o schema da API
+    Then  o schema deve ser válido

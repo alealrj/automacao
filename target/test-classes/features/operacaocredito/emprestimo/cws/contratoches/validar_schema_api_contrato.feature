@@ -1,0 +1,7 @@
+@TID95084REV0.2.0
+Feature: Validar schema API de Empréstimos - Contrato CHES (CWS)
+
+  Scenario: Validar schema API de Empréstimos - Contrato (CHES)
+    Given que seja feito uma requisição POST no endpoint de Empréstimos - Contrato CHES
+    When pegar o schema da API
+    Then o schema deve ser válido

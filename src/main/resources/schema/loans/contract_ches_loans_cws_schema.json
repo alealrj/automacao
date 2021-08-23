@@ -1,0 +1,154 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "numeroContrato": {
+      "type": "integer"
+    },
+    "nomeProdutoBradesco": {
+      "type": "string"
+    },
+    "dataFimContrato": {
+      "type": "string"
+    },
+    "chaveIpoc": {
+      "type": "string"
+    },
+    "produtoBacen": {
+      "type": "integer"
+    },
+    "subprodutoBancen": {
+      "type": "integer"
+    },
+    "dataContratacao": {
+      "type": "string"
+    },
+    "dataLiberacContr": {
+      "type": "string"
+    },
+    "valorLimite": {
+      "type": "number"
+    },
+    "moeda": {
+      "type": "string"
+    },
+    "dataRenovacaoLimite": {
+      "type": "string"
+    },
+    "periodicidadePgto": {
+      "type": "integer"
+    },
+    "percentCetAno": {
+      "type": "number"
+    },
+    "tipoAmortizacao": {
+      "type": "integer"
+    },
+    "tipoTaxa": {
+      "type": "integer"
+    },
+    "tipoJuros": {
+      "type": "integer"
+    },
+    "periodicidadeTaxa": {
+      "type": "integer"
+    },
+    "calculoCobrTaxa": {
+      "type": "integer"
+    },
+    "tipoTaxaReferenc": {
+      "type": "integer"
+    },
+    "subtipoTaxaReferenc": {
+      "type": "integer"
+    },
+    "valorTaxaPrefixada": {
+      "type": "number"
+    },
+    "descricaoTarifa": {
+      "type": "integer"
+    },
+    "siglaTarifa": {
+      "type": "integer"
+    },
+    "tipoCobrancaTarira": {
+      "type": "integer"
+    },
+    "ocorrenciaTarifa": {
+      "type": "integer"
+    },
+    "occursTarifas": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "formaCobrTarf": {
+              "type": "integer"
+            },
+            "valorTarifa": {
+              "type": "number"
+            },
+            "percentualTarifa": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "formaCobrTarf",
+            "valorTarifa",
+            "percentualTarifa"
+          ]
+        }
+      ]
+    },
+    "ocorrenciaEncargos": {
+      "type": "integer"
+    },
+    "occursEncargos": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "tipoEncargos": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "tipoEncargos"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "numeroContrato",
+    "nomeProdutoBradesco",
+    "dataFimContrato",
+    "chaveIpoc",
+    "produtoBacen",
+    "subprodutoBancen",
+    "dataContratacao",
+    "dataLiberacContr",
+    "valorLimite",
+    "moeda",
+    "dataRenovacaoLimite",
+    "periodicidadePgto",
+    "percentCetAno",
+    "tipoAmortizacao",
+    "tipoTaxa",
+    "tipoJuros",
+    "periodicidadeTaxa",
+    "calculoCobrTaxa",
+    "tipoTaxaReferenc",
+    "subtipoTaxaReferenc",
+    "valorTaxaPrefixada",
+    "descricaoTarifa",
+    "siglaTarifa",
+    "tipoCobrancaTarira",
+    "ocorrenciaTarifa",
+    "occursTarifas",
+    "ocorrenciaEncargos",
+    "occursEncargos"
+  ]
+}

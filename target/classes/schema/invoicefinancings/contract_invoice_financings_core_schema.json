@@ -1,0 +1,76 @@
+{
+  "data": {
+    "contractNumber": "2010000000083",
+    "ipocCode": "607469480303100000102199DCOM00002002070012900000000000013445",
+    "productName": "Antecipação de Recebíveis de Cartões",
+    "productType": "DIREITOS_CREDITORIOS_DESCONTADOS",
+    "productSubType": "ANTECIPACAO_FATURA_CARTAO_CREDITO",
+    "contractDate": "2008-03-13",
+    "disbursementDate": "2008-03-13",
+    "settlementDate": null,
+    "contractAmount": 1000.00,
+    "currency": "BRL",
+    "dueDate": "2008-03-26",
+    "instalmentPeriodicity": "SEM_PERIODICIDADE_REGULAR",
+    "instalmentPeriodicityAdditionalInfo": null,
+    "firstInstalmentDueDate": "2007-09-07",
+    "CET": 161.8862832,
+    "amortizationScheduled": "SEM_SISTEMA_AMORTIZACAO",
+    "interestRates": [
+      {
+        "taxType": "EFETIVA",
+        "interestRateType": "SIMPLES",
+        "taxPeriodicity": "AM",
+        "calculation": "30/365",
+        "referentialRateIndexerType": "PRE_FIXADO",
+        "referentialRateIndexerSubType": "PRE_FIXADO",
+        "referentialRateIndexerAdditionalInfo": "",
+        "preFixedRate": 4.0300000,
+        "postFixedRate": 0E-7,
+        "additionalInfo": ""
+      }
+    ],
+    "contractedFees": [
+      {
+        "feeName": "TARIFA DA OPERACAO",
+        "feeCode": "TAC",
+        "feeChargeType": "UNICA",
+        "feeCharge": "MINIMO",
+        "feeAmount": 1.50,
+        "feeRate": 1.5000000
+      }
+    ],
+    "contractedFinanceCharges": [
+      {
+        "chargeType": "JUROS_REMUNERATORIOS_POR_ATRASO",
+        "chargeAdditionalInfo": "",
+        "chargeRate": 4.0300000
+      },
+      {
+        "chargeType": "MULTA_ATRASO_PAGAMENTO",
+        "chargeAdditionalInfo": "",
+        "chargeRate": 0.0200000
+      },
+      {
+        "chargeType": "JUROS_MORA_ATRASO",
+        "chargeAdditionalInfo": "",
+        "chargeRate": 0.0100000
+      },
+      {
+        "chargeType": "IOF_CONTRATACAO",
+        "chargeAdditionalInfo": "",
+        "chargeRate": 0.0041000
+      },
+      {
+        "chargeType": "IOF_POR_ATRASO",
+        "chargeAdditionalInfo": "",
+        "chargeRate": 0.0041000
+      }
+    ]
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1,
+    "requestDateTime": "2021-06-09T18:41:15Z"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "ncontrAdepos": {
+          "type": "integer"
+        },
+        "ncontrIpoc": {
+          "type": "string"
+        },
+        "descModld": {
+          "type": "string"
+        },
+        "cmodldRzCtbil": {
+          "type": "integer"
+        },
+        "dcontrOper": {
+          "type": "string"
+        },
+        "taxaJuros": {
+          "type": "number"
+        },
+        "ccart": {
+          "type": "string"
+        },
+        "descTarifa": {
+          "type": "string"
+        },
+        "siglaTarifa": {
+          "type": "string"
+        },
+        "vlrTarifa": {
+          "type": "number"
+        },
+        "listaEncargos": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "ctpoEncargo": {
+                  "type": "integer"
+                },
+                "infoAdic": {
+                  "type": "string"
+                },
+                "percEncargo": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "ctpoEncargo",
+                "infoAdic",
+                "percEncargo"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ctpoEncargo": {
+                  "type": "integer"
+                },
+                "infoAdic": {
+                  "type": "string"
+                },
+                "percEncargo": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "ctpoEncargo",
+                "infoAdic",
+                "percEncargo"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ctpoEncargo": {
+                  "type": "integer"
+                },
+                "infoAdic": {
+                  "type": "string"
+                },
+                "percEncargo": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "ctpoEncargo",
+                "infoAdic",
+                "percEncargo"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "ncontrAdepos",
+        "ncontrIpoc",
+        "descModld",
+        "cmodldRzCtbil",
+        "dcontrOper",
+        "taxaJuros",
+        "ccart",
+        "descTarifa",
+        "siglaTarifa",
+        "vlrTarifa",
+        "listaEncargos"
+      ]
+    },
+    "meta": {
+      "type": "null"
+    },
+    "links": {
+      "type": "null"
+    },
+    "httpCode": {
+      "type": "integer"
+    },
+    "errors": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "data",
+    "meta",
+    "links",
+    "httpCode",
+    "errors"
+  ]
+}

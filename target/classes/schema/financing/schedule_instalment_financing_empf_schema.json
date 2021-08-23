@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "prazoRemanes": {
+      "type": "integer"
+    },
+    "tpPrazoRemanes": {
+      "type": "integer"
+    },
+    "prazoTotal": {
+      "type": "integer"
+    },
+    "tpPrazoTotal": {
+      "type": "integer"
+    },
+    "qpcelaVencd": {
+      "type": "integer"
+    },
+    "qpcelaAvenc": {
+      "type": "integer"
+    },
+    "qpcelaPg": {
+      "type": "integer"
+    },
+    "numConsultas": {
+      "type": "integer"
+    },
+    "parcela": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "cpcelaContr": {
+              "type": "integer"
+            },
+            "dvctoPcela": {
+              "type": "string"
+            },
+            "vpcelaInfmdNegoc": {
+              "type": "number"
+            },
+            "ctpoSitPcela": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "cpcelaContr",
+            "dvctoPcela",
+            "vpcelaInfmdNegoc",
+            "ctpoSitPcela"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "prazoRemanes",
+    "tpPrazoRemanes",
+    "prazoTotal",
+    "tpPrazoTotal",
+    "qpcelaVencd",
+    "qpcelaAvenc",
+    "qpcelaPg",
+    "numConsultas",
+    "parcela"
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cbco": {
+              "type": "string"
+            },
+            "cidtfdLcto": {
+              "type": "string"
+            },
+            "cidtfdSnalLcto": {
+              "type": "string"
+            },
+            "ccategLcto": {
+              "type": "string"
+            },
+            "icateg": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cbco",
+            "cidtfdLcto",
+            "cidtfdSnalLcto",
+            "ccategLcto",
+            "icateg"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

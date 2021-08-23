@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "contracts": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "cgarnt": {
+              "type": "integer"
+            },
+            "cgpBacen": {
+              "type": "integer"
+            },
+            "csbgpBacen": {
+              "type": "integer"
+            },
+            "dscMoeda": {
+              "type": "string"
+            },
+            "vorignGarnt": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "cgarnt",
+            "cgpBacen",
+            "csbgpBacen",
+            "dscMoeda",
+            "vorignGarnt"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "contracts"
+  ]
+}

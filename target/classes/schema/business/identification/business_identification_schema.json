@@ -1,0 +1,536 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "updateDateTime": {
+              "type": "string",
+              "maxLength": 20
+            },
+            "businessId": {
+              "type": "string",
+              "maxLength": 100
+            },
+            "brandName": {
+              "type": "string",
+              "maxLength": 80
+            },
+            "companyName": {
+              "type": "string",
+              "maxLength": 70
+            },
+            "tradeName": {
+              "type": "string",
+              "maxLength": 70
+            },
+            "incorporationDate": {
+              "type": "string",
+              "maxLength": 20
+            },
+            "cnpjNumber": {
+              "type": "string",
+              "maxLength": 14,
+              "pattern": "\\d{14}|^NA$"
+            },
+            "companyCnpjNumber": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "otherDocuments": {
+              "type": [
+                "array",
+                "null"
+              ],
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "maxLength": 20
+                    },
+                    "number": {
+                      "type": "string",
+                      "maxLength": 20
+                    },
+                    "country": {
+                      "type": "string",
+                      "maxLength": 3,
+                      "pattern": "^(\\w{3}){1}$|^NA$"
+                    },
+                    "expirationDate": {
+                      "type": "string",
+                      "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])$|^NA$",
+                      "maxLength": 10
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "number",
+                    "country",
+                    "expirationDate"
+                  ]
+                }
+              ]
+            },
+            "parties": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "personType": {
+                      "type": "string",
+                      "enum": [
+                        "PESSOA_NATURAL",
+                        "PESSOA_JURIDICA"
+                      ]
+                    },
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "SOCIO",
+                        "ADMINISTRADOR"
+                      ],
+                      "maxLength": 13
+                    },
+                    "civilName": {
+                      "type": "string",
+                      "maxLength": 70
+                    },
+                    "socialName": {
+                      "type": "string",
+                      "maxLength": 70
+                    },
+                    "companyName": {
+                      "type": "string",
+                      "maxLength": 70
+                    },
+                    "tradeName": {
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "maxLength": 70
+                    },
+                    "startDate": {
+                      "type": "string",
+                      "maxLength": 20
+                    },
+                    "shareholding": {
+                      "type": "string",
+                      "maxLength": 4
+                    },
+                    "documentType": {
+                      "type": "string",
+                      "enum": [
+                        "CPF",
+                        "PASSAPORTE",
+                        "OUTRO_DOCUMENTO_VIAGEM",
+                        "CNPJ"
+                      ]
+                    },
+                    "documentNumber": {
+                      "type": "string",
+                      "maxLength": 20
+                    },
+                    "documentAdditionalInfo": {
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "maxLength": 100
+                    },
+                    "documentCountry": {
+                      "type": "string",
+                      "maxLength": 3
+                    },
+                    "documentExpirationDate": {
+                      "type": "string",
+                      "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])|^NA$",
+                      "maxLength": 10
+                    },
+                    "documentIssueDate": {
+                      "type": "string",
+                      "pattern": "^(\\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])|^NA$",
+                      "maxLength": 10
+                    }
+                  },
+                  "required": [
+                    "personType",
+                    "type",
+                    "civilName",
+                    "socialName",
+                    "companyName",
+                    "tradeName",
+                    "startDate",
+                    "shareholding",
+                    "documentType",
+                    "documentNumber",
+                    "documentAdditionalInfo",
+                    "documentCountry",
+                    "documentExpirationDate",
+                    "documentIssueDate"
+                  ]
+                }
+              ]
+            },
+            "contacts": {
+              "type": "object",
+              "properties": {
+                "postalAddresses": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "isMain": {
+                          "type": "boolean"
+                        },
+                        "address": {
+                          "type": "string",
+                          "maxLength": 150
+                        },
+                        "additionalInfo": {
+                          "type": [
+                            "string",
+                            "null"
+                          ],
+                          "maxLength": 30
+                        },
+                        "districtName": {
+                          "type": "string",
+                          "maxLength": 50
+                        },
+                        "townName": {
+                          "type": "string",
+                          "maxLength": 50
+                        },
+                        "ibgeTownCode": {
+                          "type": [
+                            "string",
+                            "null"
+                          ],
+                          "pattern": "\\d{7}$",
+                          "maxLength": 7
+                        },
+                        "countrySubDivision": {
+                          "type": "string",
+                          "enum": [
+                            "AC",
+                            "AL",
+                            "AP",
+                            "AM",
+                            "BA",
+                            "CE",
+                            "DF",
+                            "ES",
+                            "GO",
+                            "MA",
+                            "MT",
+                            "MS",
+                            "MG",
+                            "PA",
+                            "PB",
+                            "PR",
+                            "PE",
+                            "PI",
+                            "RJ",
+                            "RN",
+                            "RS",
+                            "RO",
+                            "RR",
+                            "SC",
+                            "SP",
+                            "SE",
+                            "TO",
+                            "NA"
+                          ]
+                        },
+                        "postCode": {
+                          "type": "string",
+                          "pattern": "\\d{8}|^NA$",
+                          "maxLength": 8
+                        },
+                        "country": {
+                          "type": "string"
+                        },
+                        "countryCode": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "geographicCoordinates": {
+                          "type": "object",
+                          "properties": {
+                            "latitude": {
+                              "type": [
+                                "string",
+                                "null"
+                              ],
+                              "maxLength": 13
+                            },
+                            "longitude": {
+                              "type": [
+                                "string",
+                                "null"
+                              ],
+                              "maxLength": 13
+                            }
+                          },
+                          "required": [
+                            "latitude",
+                            "longitude"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "isMain",
+                        "address",
+                        "additionalInfo",
+                        "districtName",
+                        "townName",
+                        "ibgeTownCode",
+                        "countrySubDivision",
+                        "postCode",
+                        "country",
+                        "countryCode",
+                        "geographicCoordinates"
+                      ]
+                    }
+                  ]
+                },
+                "phones": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "isMain": {
+                          "type": "boolean"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "FIXO",
+                            "MOVEL",
+                            "OUTRO"
+                          ],
+                          "maxLength": 5
+                        },
+                        "additionalInfo": {
+                          "type": ["string" , "null"],
+                          "maxLength": 70
+                        },
+                        "countryCallingCode": {
+                          "type": "string",
+                          "maxLength": 4
+                        },
+                        "areaCode": {
+                          "type": "string",
+                          "enum": [
+                            "11",
+                            "12",
+                            "13",
+                            "14",
+                            "15",
+                            "16",
+                            "17",
+                            "18",
+                            "19",
+                            "21",
+                            "22",
+                            "24",
+                            "27",
+                            "28",
+                            "31",
+                            "32",
+                            "33",
+                            "34",
+                            "35",
+                            "37",
+                            "38",
+                            "41",
+                            "42",
+                            "43",
+                            "44",
+                            "45",
+                            "46",
+                            "47",
+                            "48",
+                            "49",
+                            "51",
+                            "53",
+                            "54",
+                            "55",
+                            "61",
+                            "62",
+                            "63",
+                            "64",
+                            "65",
+                            "66",
+                            "67",
+                            "68",
+                            "69",
+                            "71",
+                            "73",
+                            "74",
+                            "75",
+                            "77",
+                            "79",
+                            "81",
+                            "82",
+                            "83",
+                            "84",
+                            "85",
+                            "86",
+                            "87",
+                            "88",
+                            "89",
+                            "91",
+                            "92",
+                            "93",
+                            "94",
+                            "95",
+                            "96",
+                            "97",
+                            "98",
+                            "99",
+                            "NA"
+                          ]
+                        },
+                        "number": {
+                          "type": "string",
+                          "maxLength": 11
+                        },
+                        "phoneExtension": {
+                          "type": "string",
+                          "maxLength": 5
+                        }
+                      },
+                      "required": [
+                        "isMain",
+                        "type",
+                        "additionalInfo",
+                        "countryCallingCode",
+                        "areaCode",
+                        "number",
+                        "phoneExtension"
+                      ]
+                    }
+                  ]
+                },
+                "emails": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "isMain": {
+                          "type": "boolean"
+                        },
+                        "email": {
+                          "type": "string",
+                          "maxLength": 320
+                        }
+                      },
+                      "required": [
+                        "isMain",
+                        "email"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "postalAddresses",
+                "phones",
+                "emails"
+              ]
+            }
+          },
+          "required": [
+            "updateDateTime",
+            "businessId",
+            "brandName",
+            "companyName",
+            "tradeName",
+            "incorporationDate",
+            "cnpjNumber",
+            "companyCnpjNumber",
+            "otherDocuments",
+            "parties",
+            "contacts"
+          ]
+        }
+      ]
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "self": {
+          "type": "string"
+        },
+        "first": {
+          "type": "string"
+        },
+        "prev": {
+          "type": "string"
+        },
+        "next": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "self",
+        "first",
+        "prev",
+        "next",
+        "last"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "links",
+    "meta"
+  ]
+}

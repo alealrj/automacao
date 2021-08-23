@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "numberOfContracts": {
+      "type": "integer"
+    },
+    "contracts": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "ccart": {
+              "type": "string"
+            },
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "ncontrIpoc": {
+              "type": "string"
+            },
+            "descModld": {
+              "type": "string"
+            },
+            "ncontrAdepos": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ccart",
+            "cmodldRzCtbil",
+            "ncontrIpoc",
+            "descModld",
+            "ncontrAdepos"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ccart": {
+              "type": "string"
+            },
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "ncontrIpoc": {
+              "type": "string"
+            },
+            "descModld": {
+              "type": "string"
+            },
+            "ncontrAdepos": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ccart",
+            "cmodldRzCtbil",
+            "ncontrIpoc",
+            "descModld",
+            "ncontrAdepos"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ccart": {
+              "type": "string"
+            },
+            "cmodldRzCtbil": {
+              "type": "integer"
+            },
+            "ncontrIpoc": {
+              "type": "string"
+            },
+            "descModld": {
+              "type": "string"
+            },
+            "ncontrAdepos": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ccart",
+            "cmodldRzCtbil",
+            "ncontrIpoc",
+            "descModld",
+            "ncontrAdepos"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "numberOfContracts",
+    "contracts"
+  ]
+}

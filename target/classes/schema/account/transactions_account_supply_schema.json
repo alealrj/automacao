@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "completedAuthorisedPaymentType": {
+              "type": "string"
+            },
+            "creditDebitType": {
+              "type": "string"
+            },
+            "transactionName": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "number"
+            },
+            "transactionDate": {
+              "type": "string"
+            },
+            "partieCnpjCpf": {
+              "type": "string"
+            },
+            "partiePersonType": {
+              "type": "string"
+            },
+            "partieCompeCode": {
+              "type": "string"
+            },
+            "partieBranchCode": {
+              "type": "string"
+            },
+            "partieNumber": {
+              "type": "string"
+            },
+            "partieCheckDigit": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "completedAuthorisedPaymentType",
+            "creditDebitType",
+            "transactionName",
+            "amount",
+            "transactionDate",
+            "partieCnpjCpf",
+            "partiePersonType",
+            "partieCompeCode",
+            "partieBranchCode",
+            "partieNumber",
+            "partieCheckDigit"
+          ]
+        }
+      ]
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "self": {
+          "type": "string"
+        },
+        "first": {
+          "type": "string"
+        },
+        "prev": {
+          "type": "string"
+        },
+        "next": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "self",
+        "first",
+        "prev",
+        "next",
+        "last"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "links",
+    "meta"
+  ]
+}

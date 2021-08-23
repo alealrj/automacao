@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "contracts": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "scsistOrig": {
+              "type": "string"
+            },
+            "sccontr": {
+              "type": "integer"
+            },
+            "scarteira": {
+              "type": "string"
+            },
+            "scmodldRzCtbil": {
+              "type": "integer"
+            },
+            "swidPdraoOper": {
+              "type": "string"
+            },
+            "sdexparaMod": {
+              "type": "string"
+            },
+            "sdataFimContrato": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "scsistOrig",
+            "sccontr",
+            "scarteira",
+            "scmodldRzCtbil",
+            "swidPdraoOper",
+            "sdexparaMod",
+            "sdataFimContrato"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "contracts"
+  ]
+}

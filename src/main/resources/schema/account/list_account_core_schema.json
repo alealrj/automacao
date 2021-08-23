@@ -1,0 +1,164 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "cpfCnpj": {
+              "type": "string"
+            },
+            "ownership": {
+              "type": "string"
+            },
+            "club": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "companyContractCode": {
+              "type": "string"
+            },
+            "contractType": {
+              "type": "string"
+            },
+            "contractId": {
+              "type": "string"
+            },
+            "segmentCode": {
+              "type": "string"
+            },
+            "segmentDescription": {
+              "type": "string"
+            },
+            "reasonGroup": {
+              "type": "string"
+            },
+            "reasonSubGroup": {
+              "type": "string"
+            },
+            "compeCode": {
+              "type": "string"
+            },
+            "branchCode": {
+              "type": "string"
+            },
+            "number": {
+              "type": "string"
+            },
+            "checkDigit": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cpfCnpj",
+            "ownership",
+            "club",
+            "type",
+            "companyContractCode",
+            "contractType",
+            "contractId",
+            "segmentCode",
+            "segmentDescription",
+            "reasonGroup",
+            "reasonSubGroup",
+            "compeCode",
+            "branchCode",
+            "number",
+            "checkDigit"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cpfCnpj": {
+              "type": "string"
+            },
+            "ownership": {
+              "type": "string"
+            },
+            "club": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "companyContractCode": {
+              "type": "string"
+            },
+            "contractType": {
+              "type": "string"
+            },
+            "contractId": {
+              "type": "string"
+            },
+            "segmentCode": {
+              "type": "string"
+            },
+            "segmentDescription": {
+              "type": "string"
+            },
+            "reasonGroup": {
+              "type": "string"
+            },
+            "reasonSubGroup": {
+              "type": "string"
+            },
+            "compeCode": {
+              "type": "string"
+            },
+            "branchCode": {
+              "type": "string"
+            },
+            "number": {
+              "type": "string"
+            },
+            "checkDigit": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cpfCnpj",
+            "ownership",
+            "club",
+            "type",
+            "companyContractCode",
+            "contractType",
+            "contractId",
+            "segmentCode",
+            "segmentDescription",
+            "reasonGroup",
+            "reasonSubGroup",
+            "compeCode",
+            "branchCode",
+            "number",
+            "checkDigit"
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "meta"
+  ]
+}

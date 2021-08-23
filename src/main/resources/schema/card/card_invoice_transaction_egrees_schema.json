@@ -1,0 +1,409 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "Mensagens": [
+        {
+          "Origem": "b2k",
+          "CodigoRetorno": "F0000",
+          "Mensagem": "A2345678901234567890123456789012345678901234567890"
+        }
+      ],
+      "CartoesCliente": [
+        {
+          "origem": "b2k",
+          "numeroCartao": "A234567890123456789",
+          "contaFaturamento": "",
+          "bandeiraCartao": "V",
+          "nomeProduto": "A23456789012345678901234567890",
+          "tipoCartao": "",
+          "produtoCartao": "KIA",
+          "subProdutoCartao": "002",
+          "titularidade": "",
+          "statusCartao": "",
+          "tipoBloqueio": 0,
+          "cartaoMultiplo": "S",
+          "cartaoEspelho": "",
+          "companyId": "",
+          "statusConta": "",
+          "tipoBloqCta001": 0,
+          "tipoBloqCta002": 0
+        }
+      ],
+      "ChavesRestart": {
+        "b2k": ""
+      }
+    }
+  ],
+  "required": [
+    "Mensagens",
+    "CartoesCliente",
+    "ChavesRestart"
+  ],
+  "properties": {
+    "Mensagens": {
+      "$id": "#/properties/Mensagens",
+      "type": "array",
+      "title": "The Mensagens schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "Origem": "b2k",
+            "CodigoRetorno": "F0000",
+            "Mensagem": "A2345678901234567890123456789012345678901234567890"
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/Mensagens/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/Mensagens/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "Origem": "b2k",
+                "CodigoRetorno": "F0000",
+                "Mensagem": "A2345678901234567890123456789012345678901234567890"
+              }
+            ],
+            "required": [
+              "Origem",
+              "CodigoRetorno",
+              "Mensagem"
+            ],
+            "properties": {
+              "Origem": {
+                "$id": "#/properties/Mensagens/items/anyOf/0/properties/Origem",
+                "type": "string",
+                "title": "The Origem schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "b2k"
+                ]
+              },
+              "CodigoRetorno": {
+                "$id": "#/properties/Mensagens/items/anyOf/0/properties/CodigoRetorno",
+                "type": "string",
+                "title": "The CodigoRetorno schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "F0000"
+                ]
+              },
+              "Mensagem": {
+                "$id": "#/properties/Mensagens/items/anyOf/0/properties/Mensagem",
+                "type": "string",
+                "title": "The Mensagem schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "A2345678901234567890123456789012345678901234567890"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "CartoesCliente": {
+      "$id": "#/properties/CartoesCliente",
+      "type": "array",
+      "title": "The CartoesCliente schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "origem": "b2k",
+            "numeroCartao": "A234567890123456789",
+            "contaFaturamento": "",
+            "bandeiraCartao": "V",
+            "nomeProduto": "A23456789012345678901234567890",
+            "tipoCartao": "",
+            "produtoCartao": "KIA",
+            "subProdutoCartao": "002",
+            "titularidade": "",
+            "statusCartao": "",
+            "tipoBloqueio": 0,
+            "cartaoMultiplo": "S",
+            "cartaoEspelho": "",
+            "companyId": "",
+            "statusConta": "",
+            "tipoBloqCta001": 0,
+            "tipoBloqCta002": 0
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/CartoesCliente/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/CartoesCliente/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "origem": "b2k",
+                "numeroCartao": "A234567890123456789",
+                "contaFaturamento": "",
+                "bandeiraCartao": "V",
+                "nomeProduto": "A23456789012345678901234567890",
+                "tipoCartao": "",
+                "produtoCartao": "KIA",
+                "subProdutoCartao": "002",
+                "titularidade": "",
+                "statusCartao": "",
+                "tipoBloqueio": 0,
+                "cartaoMultiplo": "S",
+                "cartaoEspelho": "",
+                "companyId": "",
+                "statusConta": "",
+                "tipoBloqCta001": 0,
+                "tipoBloqCta002": 0
+              }
+            ],
+            "required": [
+              "origem",
+              "numeroCartao",
+              "contaFaturamento",
+              "bandeiraCartao",
+              "nomeProduto",
+              "tipoCartao",
+              "produtoCartao",
+              "subProdutoCartao",
+              "titularidade",
+              "statusCartao",
+              "tipoBloqueio",
+              "cartaoMultiplo",
+              "cartaoEspelho",
+              "companyId",
+              "statusConta",
+              "tipoBloqCta001",
+              "tipoBloqCta002"
+            ],
+            "properties": {
+              "origem": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/origem",
+                "type": "string",
+                "title": "The origem schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "b2k"
+                ]
+              },
+              "numeroCartao": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/numeroCartao",
+                "type": "string",
+                "title": "The numeroCartao schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "A234567890123456789"
+                ]
+              },
+              "contaFaturamento": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/contaFaturamento",
+                "type": "string",
+                "title": "The contaFaturamento schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              },
+              "bandeiraCartao": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/bandeiraCartao",
+                "type": "string",
+                "title": "The bandeiraCartao schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "V"
+                ]
+              },
+              "nomeProduto": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/nomeProduto",
+                "type": "string",
+                "title": "The nomeProduto schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "A23456789012345678901234567890"
+                ]
+              },
+              "tipoCartao": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/tipoCartao",
+                "type": "string",
+                "title": "The tipoCartao schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              },
+              "produtoCartao": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/produtoCartao",
+                "type": "string",
+                "title": "The produtoCartao schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "KIA"
+                ]
+              },
+              "subProdutoCartao": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/subProdutoCartao",
+                "type": "string",
+                "title": "The subProdutoCartao schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "002"
+                ]
+              },
+              "titularidade": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/titularidade",
+                "type": "string",
+                "title": "The titularidade schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              },
+              "statusCartao": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/statusCartao",
+                "type": "string",
+                "title": "The statusCartao schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              },
+              "tipoBloqueio": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/tipoBloqueio",
+                "type": "integer",
+                "title": "The tipoBloqueio schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "cartaoMultiplo": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/cartaoMultiplo",
+                "type": "string",
+                "title": "The cartaoMultiplo schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "S"
+                ]
+              },
+              "cartaoEspelho": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/cartaoEspelho",
+                "type": "string",
+                "title": "The cartaoEspelho schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              },
+              "companyId": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/companyId",
+                "type": "string",
+                "title": "The companyId schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              },
+              "statusConta": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/statusConta",
+                "type": "string",
+                "title": "The statusConta schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              },
+              "tipoBloqCta001": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/tipoBloqCta001",
+                "type": "integer",
+                "title": "The tipoBloqCta001 schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "tipoBloqCta002": {
+                "$id": "#/properties/CartoesCliente/items/anyOf/0/properties/tipoBloqCta002",
+                "type": "integer",
+                "title": "The tipoBloqCta002 schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "ChavesRestart": {
+      "$id": "#/properties/ChavesRestart",
+      "type": "object",
+      "title": "The ChavesRestart schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "b2k": ""
+        }
+      ],
+      "required": [
+        "b2k"
+      ],
+      "properties": {
+        "b2k": {
+          "$id": "#/properties/ChavesRestart/properties/b2k",
+          "type": "string",
+          "title": "The b2k schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

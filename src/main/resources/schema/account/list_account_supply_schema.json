@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "brandName": {
+              "type": "string"
+            },
+            "companyCnpj": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "compeCode": {
+              "type": "string"
+            },
+            "branchCode": {
+              "type": "string"
+            },
+            "number": {
+              "type": "string"
+            },
+            "checkDigit": {
+              "type": "string"
+            },
+            "accountId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brandName",
+            "companyCnpj",
+            "type",
+            "compeCode",
+            "branchCode",
+            "number",
+            "checkDigit",
+            "accountId"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brandName": {
+              "type": "string"
+            },
+            "companyCnpj": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "compeCode": {
+              "type": "string"
+            },
+            "branchCode": {
+              "type": "string"
+            },
+            "number": {
+              "type": "string"
+            },
+            "checkDigit": {
+              "type": "string"
+            },
+            "accountId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brandName",
+            "companyCnpj",
+            "type",
+            "compeCode",
+            "branchCode",
+            "number",
+            "checkDigit",
+            "accountId"
+          ]
+        }
+      ]
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "self": {
+          "type": "string"
+        },
+        "first": {
+          "type": "string"
+        },
+        "prev": {
+          "type": "string"
+        },
+        "next": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "self",
+        "first",
+        "prev",
+        "next",
+        "last"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "links",
+    "meta"
+  ]
+}

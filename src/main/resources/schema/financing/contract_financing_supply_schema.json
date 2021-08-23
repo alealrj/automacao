@@ -1,0 +1,222 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "contractNumber": {
+          "type": "string"
+        },
+        "ipocCode": {
+          "type": "string"
+        },
+        "productName": {
+          "type": "string"
+        },
+        "productType": {
+          "type": "string"
+        },
+        "productSubType": {
+          "type": "string"
+        },
+        "contractDate": {
+          "type": "string"
+        },
+        "disbursementDate": {
+          "type": "string"
+        },
+        "settlementDate": {
+          "type": "null"
+        },
+        "contractAmount": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "dueDate": {
+          "type": "string"
+        },
+        "instalmentPeriodicity": {
+          "type": "string"
+        },
+        "instalmentPeriodicityAdditionalInfo": {
+          "type": "null"
+        },
+        "firstInstalmentDueDate": {
+          "type": "string"
+        },
+        "cet": {
+          "type": "number"
+        },
+        "amortizationScheduled": {
+          "type": "null"
+        },
+        "interestRates": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "taxType": {
+                  "type": "string"
+                },
+                "interestRateType": {
+                  "type": "null"
+                },
+                "taxPeriodicity": {
+                  "type": "null"
+                },
+                "calculation": {
+                  "type": "string"
+                },
+                "referentialRateIndexerType": {
+                  "type": "string"
+                },
+                "referentialRateIndexerSubType": {
+                  "type": "null"
+                },
+                "referentialRateIndexerAdditionalInfo": {
+                  "type": "string"
+                },
+                "preFixedRate": {
+                  "type": "number"
+                },
+                "postFixedRate": {
+                  "type": "number"
+                },
+                "additionalInfo": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "taxType",
+                "interestRateType",
+                "taxPeriodicity",
+                "calculation",
+                "referentialRateIndexerType",
+                "referentialRateIndexerSubType",
+                "referentialRateIndexerAdditionalInfo",
+                "preFixedRate",
+                "postFixedRate",
+                "additionalInfo"
+              ]
+            }
+          ]
+        },
+        "contractedFees": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "feeName": {
+                  "type": "string"
+                },
+                "feeCode": {
+                  "type": "string"
+                },
+                "feeChargeType": {
+                  "type": "string"
+                },
+                "feeCharge": {
+                  "type": "string"
+                },
+                "feeAmount": {
+                  "type": "number"
+                },
+                "feeRate": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "feeName",
+                "feeCode",
+                "feeChargeType",
+                "feeCharge",
+                "feeAmount",
+                "feeRate"
+              ]
+            }
+          ]
+        },
+        "contractedFinanceCharges": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "contractNumber",
+        "ipocCode",
+        "productName",
+        "productType",
+        "productSubType",
+        "contractDate",
+        "disbursementDate",
+        "settlementDate",
+        "contractAmount",
+        "currency",
+        "dueDate",
+        "instalmentPeriodicity",
+        "instalmentPeriodicityAdditionalInfo",
+        "firstInstalmentDueDate",
+        "cet",
+        "amortizationScheduled",
+        "interestRates",
+        "contractedFees",
+        "contractedFinanceCharges"
+      ]
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "self": {
+          "type": "string"
+        },
+        "first": {
+          "type": "string"
+        },
+        "prev": {
+          "type": "string"
+        },
+        "next": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "self",
+        "first",
+        "prev",
+        "next",
+        "last"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalRecords": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "requestDateTime": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "links",
+    "meta"
+  ]
+}

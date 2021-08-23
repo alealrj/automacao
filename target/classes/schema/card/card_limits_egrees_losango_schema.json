@@ -1,0 +1,283 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "data": [
+        {
+          "creditLineLimitType": "LIMITE_CREDITO_TOTAL",
+          "consolidationType": "CONSOLIDADO",
+          "identificationNumber": "string",
+          "lineName": "CREDITO_A_VISTA",
+          "lineNameAdditionalInfo": "string",
+          "isLimitFlexible": true,
+          "limitAmountCurrency": "string",
+          "limitAmount": 0,
+          "usedAmountCurrency": "string",
+          "usedAmount": 0,
+          "availableAmountCurrency": "string",
+          "availableAmount": 0
+        }
+      ],
+      "meta": {
+        "totalRecords": 0,
+        "totalPages": 0,
+        "requestDateTime": "2021-06-18T19:21:52.293Z"
+      }
+    }
+  ],
+  "required": [
+    "data",
+    "meta"
+  ],
+  "properties": {
+    "data": {
+      "$id": "#/properties/data",
+      "type": "array",
+      "title": "The data schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "creditLineLimitType": "LIMITE_CREDITO_TOTAL",
+            "consolidationType": "CONSOLIDADO",
+            "identificationNumber": "string",
+            "lineName": "CREDITO_A_VISTA",
+            "lineNameAdditionalInfo": "string",
+            "isLimitFlexible": true,
+            "limitAmountCurrency": "string",
+            "limitAmount": 0,
+            "usedAmountCurrency": "string",
+            "usedAmount": 0,
+            "availableAmountCurrency": "string",
+            "availableAmount": 0
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/data/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/data/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "creditLineLimitType": "LIMITE_CREDITO_TOTAL",
+                "consolidationType": "CONSOLIDADO",
+                "identificationNumber": "string",
+                "lineName": "CREDITO_A_VISTA",
+                "lineNameAdditionalInfo": "string",
+                "isLimitFlexible": true,
+                "limitAmountCurrency": "string",
+                "limitAmount": 0,
+                "usedAmountCurrency": "string",
+                "usedAmount": 0,
+                "availableAmountCurrency": "string",
+                "availableAmount": 0
+              }
+            ],
+            "required": [
+              "creditLineLimitType",
+              "consolidationType",
+              "identificationNumber",
+              "lineName",
+              "lineNameAdditionalInfo",
+              "isLimitFlexible",
+              "limitAmountCurrency",
+              "limitAmount",
+              "usedAmountCurrency",
+              "usedAmount",
+              "availableAmountCurrency",
+              "availableAmount"
+            ],
+            "properties": {
+              "creditLineLimitType": {
+                "$id": "#/properties/data/items/anyOf/0/properties/creditLineLimitType",
+                "type": "string",
+                "title": "The creditLineLimitType schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "LIMITE_CREDITO_TOTAL"
+                ]
+              },
+              "consolidationType": {
+                "$id": "#/properties/data/items/anyOf/0/properties/consolidationType",
+                "type": "string",
+                "title": "The consolidationType schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "CONSOLIDADO"
+                ]
+              },
+              "identificationNumber": {
+                "$id": "#/properties/data/items/anyOf/0/properties/identificationNumber",
+                "type": "string",
+                "title": "The identificationNumber schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "string"
+                ]
+              },
+              "lineName": {
+                "$id": "#/properties/data/items/anyOf/0/properties/lineName",
+                "type": "string",
+                "title": "The lineName schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "CREDITO_A_VISTA"
+                ]
+              },
+              "lineNameAdditionalInfo": {
+                "$id": "#/properties/data/items/anyOf/0/properties/lineNameAdditionalInfo",
+                "type": "string",
+                "title": "The lineNameAdditionalInfo schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "string"
+                ]
+              },
+              "isLimitFlexible": {
+                "$id": "#/properties/data/items/anyOf/0/properties/isLimitFlexible",
+                "type": "boolean",
+                "title": "The isLimitFlexible schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": false,
+                "examples": [
+                  true
+                ]
+              },
+              "limitAmountCurrency": {
+                "$id": "#/properties/data/items/anyOf/0/properties/limitAmountCurrency",
+                "type": "string",
+                "title": "The limitAmountCurrency schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "string"
+                ]
+              },
+              "limitAmount": {
+                "$id": "#/properties/data/items/anyOf/0/properties/limitAmount",
+                "type": "integer",
+                "title": "The limitAmount schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "usedAmountCurrency": {
+                "$id": "#/properties/data/items/anyOf/0/properties/usedAmountCurrency",
+                "type": "string",
+                "title": "The usedAmountCurrency schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "string"
+                ]
+              },
+              "usedAmount": {
+                "$id": "#/properties/data/items/anyOf/0/properties/usedAmount",
+                "type": "integer",
+                "title": "The usedAmount schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "availableAmountCurrency": {
+                "$id": "#/properties/data/items/anyOf/0/properties/availableAmountCurrency",
+                "type": "string",
+                "title": "The availableAmountCurrency schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "string"
+                ]
+              },
+              "availableAmount": {
+                "$id": "#/properties/data/items/anyOf/0/properties/availableAmount",
+                "type": "integer",
+                "title": "The availableAmount schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "meta": {
+      "$id": "#/properties/meta",
+      "type": "object",
+      "title": "The meta schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "totalRecords": 0,
+          "totalPages": 0,
+          "requestDateTime": "2021-06-18T19:21:52.293Z"
+        }
+      ],
+      "required": [
+        "totalRecords",
+        "totalPages",
+        "requestDateTime"
+      ],
+      "properties": {
+        "totalRecords": {
+          "$id": "#/properties/meta/properties/totalRecords",
+          "type": "integer",
+          "title": "The totalRecords schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            0
+          ]
+        },
+        "totalPages": {
+          "$id": "#/properties/meta/properties/totalPages",
+          "type": "integer",
+          "title": "The totalPages schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            0
+          ]
+        },
+        "requestDateTime": {
+          "$id": "#/properties/meta/properties/requestDateTime",
+          "type": "string",
+          "title": "The requestDateTime schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "2021-06-18T19:21:52.293Z"
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

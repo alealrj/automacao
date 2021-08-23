@@ -1,0 +1,229 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "listaEncargos": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "stpEncargo": {
+              "type": "string"
+            },
+            "sinfoAdicional": {
+              "type": "string"
+            },
+            "svlEngargo": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "stpEncargo",
+            "sinfoAdicional",
+            "svlEngargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "stpEncargo": {
+              "type": "string"
+            },
+            "sinfoAdicional": {
+              "type": "string"
+            },
+            "svlEngargo": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "stpEncargo",
+            "sinfoAdicional",
+            "svlEngargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "stpEncargo": {
+              "type": "string"
+            },
+            "sinfoAdicional": {
+              "type": "string"
+            },
+            "svlEngargo": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "stpEncargo",
+            "sinfoAdicional",
+            "svlEngargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "stpEncargo": {
+              "type": "string"
+            },
+            "sinfoAdicional": {
+              "type": "string"
+            },
+            "svlEngargo": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "stpEncargo",
+            "sinfoAdicional",
+            "svlEngargo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "stpEncargo": {
+              "type": "string"
+            },
+            "sinfoAdicional": {
+              "type": "string"
+            },
+            "svlEngargo": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "stpEncargo",
+            "sinfoAdicional",
+            "svlEngargo"
+          ]
+        }
+      ]
+    },
+    "soperacao": {
+      "type": "integer"
+    },
+    "swidPdraoOper": {
+      "type": "string"
+    },
+    "sdexparaMod": {
+      "type": "string"
+    },
+    "scmodldRzCtbil": {
+      "type": "integer"
+    },
+    "sdtOperacao": {
+      "type": "string"
+    },
+    "sdtInicOper": {
+      "type": "string"
+    },
+    "sdtQuitacao": {
+      "type": "string"
+    },
+    "svlOperacao": {
+      "type": "string"
+    },
+    "stpMoeda": {
+      "type": "string"
+    },
+    "sdtFnalOper": {
+      "type": "string"
+    },
+    "speriodicidade": {
+      "type": "string"
+    },
+    "sdtVctoInicial": {
+      "type": "string"
+    },
+    "svlCet": {
+      "type": "number"
+    },
+    "stpAmortizacao": {
+      "type": "string"
+    },
+    "stpTaxa": {
+      "type": "string"
+    },
+    "stpRate": {
+      "type": "string"
+    },
+    "srateFreq": {
+      "type": "string"
+    },
+    "stpCalc": {
+      "type": "integer"
+    },
+    "stpIndex": {
+      "type": "string"
+    },
+    "sstpIndex": {
+      "type": "string"
+    },
+    "sindexInfo": {
+      "type": "string"
+    },
+    "svlPreRate": {
+      "type": "number"
+    },
+    "svlPosRate": {
+      "type": "number"
+    },
+    "sinfo": {
+      "type": "string"
+    },
+    "snmTarifa": {
+      "type": "string"
+    },
+    "scdTarifa": {
+      "type": "string"
+    },
+    "stpTarifa": {
+      "type": "string"
+    },
+    "sregraTarifa": {
+      "type": "string"
+    },
+    "svlTarifa": {
+      "type": "number"
+    },
+    "svlTarifaPerc": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "listaEncargos",
+    "soperacao",
+    "swidPdraoOper",
+    "sdexparaMod",
+    "scmodldRzCtbil",
+    "sdtOperacao",
+    "sdtInicOper",
+    "sdtQuitacao",
+    "svlOperacao",
+    "stpMoeda",
+    "sdtFnalOper",
+    "speriodicidade",
+    "sdtVctoInicial",
+    "svlCet",
+    "stpAmortizacao",
+    "stpTaxa",
+    "stpRate",
+    "srateFreq",
+    "stpCalc",
+    "stpIndex",
+    "sstpIndex",
+    "sindexInfo",
+    "svlPreRate",
+    "svlPosRate",
+    "sinfo",
+    "snmTarifa",
+    "scdTarifa",
+    "stpTarifa",
+    "sregraTarifa",
+    "svlTarifa",
+    "svlTarifaPerc"
+  ]
+}

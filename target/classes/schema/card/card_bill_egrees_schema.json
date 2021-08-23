@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "origem": "b2k",
+      "codigoRetorno": "F0000",
+      "mensagem": "ACESSO REALIZADO COM SUCESSO",
+      "cartoesFatura": [
+        {
+          "situacaoFatura": "F",
+          "dataVencimento": "13072021",
+          "dataCorte": "00000000"
+        }
+      ]
+    }
+  ],
+  "required": [
+    "origem",
+    "codigoRetorno",
+    "mensagem",
+    "cartoesFatura"
+  ],
+  "properties": {
+    "origem": {
+      "$id": "#/properties/origem",
+      "type": "string",
+      "title": "The origem schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "b2k"
+      ]
+    },
+    "codigoRetorno": {
+      "$id": "#/properties/codigoRetorno",
+      "type": "string",
+      "title": "The codigoRetorno schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "F0000"
+      ]
+    },
+    "mensagem": {
+      "$id": "#/properties/mensagem",
+      "type": "string",
+      "title": "The mensagem schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "ACESSO REALIZADO COM SUCESSO"
+      ]
+    },
+    "cartoesFatura": {
+      "$id": "#/properties/cartoesFatura",
+      "type": "array",
+      "title": "The cartoesFatura schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "situacaoFatura": "F",
+            "dataVencimento": "13072021",
+            "dataCorte": "00000000"
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/cartoesFatura/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/cartoesFatura/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "situacaoFatura": "F",
+                "dataVencimento": "13072021",
+                "dataCorte": "00000000"
+              }
+            ],
+            "required": [
+              "situacaoFatura",
+              "dataVencimento",
+              "dataCorte"
+            ],
+            "properties": {
+              "situacaoFatura": {
+                "$id": "#/properties/cartoesFatura/items/anyOf/0/properties/situacaoFatura",
+                "type": "string",
+                "title": "The situacaoFatura schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "F"
+                ]
+              },
+              "dataVencimento": {
+                "$id": "#/properties/cartoesFatura/items/anyOf/0/properties/dataVencimento",
+                "type": "string",
+                "title": "The dataVencimento schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "13072021"
+                ]
+              },
+              "dataCorte": {
+                "$id": "#/properties/cartoesFatura/items/anyOf/0/properties/dataCorte",
+                "type": "string",
+                "title": "The dataCorte schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "00000000"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}

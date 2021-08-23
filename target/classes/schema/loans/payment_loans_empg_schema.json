@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "moeda": {
+      "type": "string"
+    },
+    "sdoDvdor": {
+      "type": "number"
+    },
+    "qtdPgto": {
+      "type": "integer"
+    },
+    "dsoltcConsDados": {
+      "type": "string"
+    },
+    "dinicConsent": {
+      "type": "string"
+    },
+    "PaymentOperationContractOccursPgto": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "codPgto": {
+              "type": "integer"
+            },
+            "dtPgto": {
+              "type": "string"
+            },
+            "sitPgto": {
+              "type": "integer"
+            },
+            "pgtoAvulso": {
+              "type": "string"
+            },
+            "codTpPagto": {
+              "type": "integer"
+            },
+            "vlrTpPagto": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "codPgto",
+            "dtPgto",
+            "sitPgto",
+            "pgtoAvulso",
+            "codTpPagto",
+            "vlrTpPagto"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "moeda",
+    "sdoDvdor",
+    "qtdPgto",
+    "dsoltcConsDados",
+    "dinicConsent",
+    "PaymentOperationContractOccursPgto"
+  ]
+}
